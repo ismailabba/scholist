@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/scholist/static/css/main.eae309b6.css",
+    "main.js": "/scholist/static/js/main.e2a900f0.js",
+    "index.html": "/scholist/index.html",
+    "main.eae309b6.css.map": "/scholist/static/css/main.eae309b6.css.map",
+    "main.e2a900f0.js.map": "/scholist/static/js/main.e2a900f0.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.eae309b6.css",
+    "static/js/main.e2a900f0.js"
+  ]
+}
