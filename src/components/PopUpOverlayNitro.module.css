@@ -1,0 +1,78 @@
+.xIcon {
+  position: relative;
+  width: 330px;
+  height: 24px;
+}
+.beforeYouGo,
+.youAreNow {
+  position: relative;
+  display: flex;
+  align-items: flex-end;
+  width: 320px;
+}
+.beforeYouGo {
+  font-size: var(--h3-medium-20-size);
+}
+.youAreNow {
+  line-height: 150%;
+}
+.text {
+  display: flex;
+  flex-direction: column;
+  padding: 0 0 var(--padding-5xs);
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+}
+.button,
+.buttonText {
+  position: absolute;
+  width: 100%;
+  left: 0;
+}
+.button {
+  height: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  border-radius: var(--br-5xs);
+  background-color: var(--logo-color-2);
+}
+.buttonText {
+  height: 95%;
+  top: 2.5%;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.buttonlarge {
+  position: relative;
+  width: 163px;
+  height: 40px;
+  text-align: center;
+  font-size: var(--h5-btns-med-14-size);
+  color: var(--white);
+}
+.popUpOverlayNitro {
+  position: relative;
+  border-radius: var(--br-5xs);
+  background-color: var(--white);
+  box-shadow: var(--button-drp-shdw);
+  border: 2px solid var(--color-black);
+  box-sizing: border-box;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  padding: var(--padding-5xs) var(--padding-base) var(--padding-13xl)
+    var(--padding-5xl);
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-smi);
+  max-width: 100%;
+  max-height: 100%;
+  text-align: left;
+  font-size: var(--p1-regular-16-size);
+  color: var(--color-black);
+  font-family: var(--p1-regular-16);
+}

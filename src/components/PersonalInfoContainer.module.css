@@ -1,0 +1,107 @@
+.personalInformation {
+  position: relative;
+  font-size: var(--p1-regular-16-size);
+  font-weight: 500;
+  font-family: var(--p1-regular-16);
+  color: var(--white);
+  text-align: center;
+}
+.personalInformationWrapper {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-mini) 0;
+  background-color: var(--royal-blue);
+  border-radius: var(--br-5xs);
+  width: 272px;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: row;
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: center;
+}
+.education {
+  position: relative;
+  font-size: var(--p1-regular-16-size);
+  font-weight: 500;
+  font-family: var(--p1-regular-16);
+  color: var(--color-black);
+  text-align: center;
+}
+.educationWrapper {
+  cursor: pointer;
+  border: 0.8px solid var(--gray-2);
+  padding: var(--padding-mini) 0;
+  background-color: var(--gray-1);
+  border-radius: var(--br-5xs);
+  box-sizing: border-box;
+  width: 272px;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.frameParent {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-32xl);
+}
+.selectionHeader {
+  background-color: var(--white);
+  width: 1446px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  padding: var(--padding-2xl) var(--padding-115xl);
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: center;
+}
+@media screen and (max-width: 1200px) {
+  .educationWrapper,
+  .personalInformationWrapper {
+    width: 222px;
+  }
+  .frameParent {
+    gap: var(--gap-16xl);
+  }
+}
+@media screen and (max-width: 850px) {
+  .personalInformation {
+    font-size: var(--font-size-3xs);
+  }
+  .personalInformationWrapper {
+    width: 150px;
+  }
+  .education {
+    font-size: var(--font-size-3xs);
+  }
+  .educationWrapper {
+    width: 150px;
+  }
+  .frameParent {
+    gap: var(--gap-xl);
+  }
+}
+@media screen and (max-width: 520px) {
+  .personalInformation {
+    font-size: var(--font-size-4xs);
+  }
+  .personalInformationWrapper {
+    width: 130px;
+  }
+  .education {
+    font-size: var(--font-size-4xs);
+  }
+  .educationWrapper {
+    width: 130px;
+  }
+  .frameParent {
+    gap: var(--gap-6xs);
+  }
+}

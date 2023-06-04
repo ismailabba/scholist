@@ -1,0 +1,624 @@
+.languageIcon {
+  position: relative;
+  width: 16px;
+  height: 16px;
+}
+.language {
+  position: relative;
+  font-weight: 500;
+}
+.downIcon {
+  position: relative;
+  width: 10px;
+  height: 6.18px;
+}
+.headerdropDownlang,
+.rightSideSecondaryNav {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+}
+.headerdropDownlang {
+  gap: var(--gap-5xs);
+}
+.rightSideSecondaryNav {
+  position: absolute;
+  top: calc(50% - 11px);
+  right: -0.22px;
+  padding: 0 var(--padding-13xl) 0 0;
+}
+.lineUnderLink {
+  position: relative;
+  background-color: var(--gray-4);
+  width: 109px;
+  height: 2px;
+}
+.headertopNavlink {
+  display: flex;
+  flex-direction: column;
+  padding: var(--padding-5xs) 0 0;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+}
+.lineUnderLink1 {
+  position: relative;
+  background-color: var(--gray-3);
+  width: 109px;
+  height: 2px;
+}
+.headertopNavlinkParent,
+.leftSideSecondaryNav {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.headertopNavlinkParent {
+  gap: var(--gap-13xl);
+}
+.leftSideSecondaryNav {
+  position: absolute;
+  top: calc(50% - 20px);
+  left: 0;
+  padding: 0 0 0 var(--padding-13xl);
+}
+.headertopNavsecondary {
+  align-self: stretch;
+  position: relative;
+  background-color: var(--gray-1);
+  height: 40px;
+}
+.headerlogoIcon {
+  position: relative;
+  width: 134px;
+  height: 41px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.navActive {
+  position: relative;
+  font-weight: 500;
+}
+.headernavLink,
+.headernavLink1 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+.headernavLink {
+  text-decoration: none;
+  color: var(--royal-blue);
+}
+.headernavLink1 {
+  cursor: pointer;
+}
+.headernavLink1,
+.headernavLink2 {
+  text-decoration: none;
+  color: inherit;
+}
+.headernavLink2,
+.headernavLink4 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+.headernavLinkParent {
+  flex: 1;
+  align-items: flex-start;
+  gap: var(--gap-13xl);
+}
+.headerlogoParent,
+.headernavLinkParent,
+.topNavLeft {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.topNavLeft {
+  flex: 1;
+  height: 21px;
+  align-items: center;
+}
+.headerlogoParent {
+  position: absolute;
+  top: 0;
+  left: 32px;
+  width: 644px;
+  align-items: flex-end;
+  gap: var(--gap-13xl);
+}
+.leftSideTopNav {
+  flex: 1;
+  position: relative;
+  height: 41px;
+}
+.vectorIcon,
+.vectorIcon1 {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.vectorIcon1 {
+  height: 50%;
+  width: 75%;
+  top: 25%;
+  right: 12.5%;
+  bottom: 25%;
+  left: 12.5%;
+}
+.menu {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: relative;
+  width: 47px;
+  height: 47px;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: none;
+}
+.buttonText {
+  position: relative;
+  font-size: var(--h5-btns-med-14-size);
+  font-weight: 500;
+  font-family: var(--p1-regular-16);
+  color: var(--logo-black);
+  text-align: center;
+}
+.buttonmedium {
+  cursor: pointer;
+  border: 1px solid var(--logo-black);
+  padding: var(--padding-12xs) 0;
+  background-color: transparent;
+  border-radius: var(--br-5xs);
+  box-sizing: border-box;
+  width: 128px;
+  height: 40px;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.buttonmedium:hover {
+  background-color: var(--color-limegreen);
+}
+.buttonmedium:active {
+  background-color: var(--white);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.83);
+}
+.buttonText1 {
+  position: relative;
+  font-size: var(--h5-btns-med-14-size);
+  font-weight: 500;
+  font-family: var(--p1-regular-16);
+  color: var(--gray-1);
+  text-align: center;
+}
+.buttonText1:hover {
+  color: var(--color-black);
+}
+.buttonText1:active {
+  -webkit-text-stroke: 1px #000;
+  text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+}
+.buttonmedium1 {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-12xs) 0;
+  background-color: var(--royal-blue);
+  border-radius: var(--br-5xs);
+  width: 128px;
+  height: 40px;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: row;
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: center;
+}
+.buttonmedium1:hover {
+  background-color: var(--color-limegreen);
+}
+.register,
+.rightSideTopNav {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-13xl);
+}
+.rightSideTopNav {
+  padding: 0 var(--padding-13xl) 0 0;
+  align-items: flex-end;
+  justify-content: flex-end;
+}
+.leftSideTopNavParent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-425xl);
+}
+.headertopNavprimary,
+.navBar {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.headertopNavprimary {
+  background-color: var(--gray-1);
+  border-bottom: 1px solid var(--gray-3);
+  padding: var(--padding-lgi) 0;
+}
+.navBar {
+  height: 120px;
+}
+.image131Icon {
+  position: relative;
+  width: 373px;
+  height: 250px;
+  object-fit: cover;
+}
+.welcome {
+  margin: 0;
+}
+.welcomeToScholistContainer {
+  position: relative;
+}
+.applyingToScholarships {
+  position: relative;
+  font-size: var(--h3-medium-20-size);
+  font-weight: 500;
+  color: var(--logo-black);
+}
+.welcomeToScholistParent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-xs);
+}
+.image131Parent,
+.leftPanel {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.image131Parent {
+  flex-direction: column;
+  gap: var(--gap-10xs);
+}
+.leftPanel {
+  flex: 1;
+  height: 858px;
+  overflow: hidden;
+  flex-direction: row;
+  padding: var(--padding-117xl) var(--padding-89xl);
+  box-sizing: border-box;
+}
+.createYourAccount2 {
+  position: relative;
+}
+.createYourAccount1,
+.inputtextboxnoLabel {
+  width: 545px;
+  display: flex;
+  flex-direction: column;
+  padding: var(--padding-9xl) 0 var(--padding-6xs);
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: center;
+}
+.inputtextboxnoLabel {
+  border: 0;
+  font-family: var(--p1-regular-16);
+  font-size: var(--p1-regular-16-size);
+  background-color: var(--white);
+  border-radius: var(--br-7xs);
+  box-shadow: var(--shadow-1);
+  width: 400.63px;
+  height: 44px;
+  overflow: hidden;
+  flex-shrink: 0;
+  flex-direction: row;
+  padding: var(--padding-3xs) var(--padding-xs);
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.firstName {
+  width: 543px;
+  padding: var(--padding-3xs) 67px;
+  box-sizing: border-box;
+}
+.email,
+.firstName,
+.lastName,
+.password {
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.lastName {
+  width: 545px;
+  padding: var(--padding-3xs) var(--padding-53xl);
+  box-sizing: border-box;
+}
+.email,
+.password {
+  padding: var(--padding-7xs) var(--padding-53xl);
+}
+.password {
+  padding: var(--padding-6xs) var(--padding-53xl);
+}
+.signUp {
+  position: relative;
+  font-size: var(--p1-regular-16-size);
+  line-height: 150%;
+  font-family: var(--p1-regular-16);
+  color: var(--gray-1);
+  text-align: left;
+}
+.buttonxxlarge,
+.signUpButton {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.buttonxxlarge {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-5xs) var(--padding-50xl);
+  background-color: var(--royal-blue);
+  border-radius: var(--br-7xs);
+  width: 401px;
+  height: 46px;
+  flex-direction: row;
+  box-sizing: border-box;
+}
+.signUpButton {
+  overflow: hidden;
+  flex-direction: column;
+  padding: var(--padding-5xs) var(--padding-52xl);
+}
+.termsConditions {
+  text-decoration: underline;
+}
+.bySubmittingThisContainer {
+  position: relative;
+  line-height: 150%;
+  text-indent: 1px;
+  display: inline-block;
+  width: 372px;
+  flex-shrink: 0;
+}
+.bySubmittingThisFormYouCWrapper {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 545px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-mid) var(--padding-53xl);
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: center;
+}
+.termsAndConditions {
+  position: relative;
+  width: 545px;
+  height: 70px;
+  text-align: center;
+  font-size: var(--p2-regular-12-size);
+  color: var(--logo-black);
+}
+.createYourAccount {
+  border-radius: var(--br-5xs);
+  background-color: var(--white);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.rightPanel {
+  background-color: var(--royal-blue);
+  width: 765px;
+  height: 853px;
+  flex-direction: column;
+  padding: var(--padding-175xl) var(--padding-69xl);
+  box-sizing: border-box;
+  margin-left: -1px;
+  font-size: var(--h2-bold-32-size);
+}
+.body,
+.rightPanel,
+.signup {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.body {
+  align-self: stretch;
+  flex-direction: row;
+  font-size: var(--font-size-29xl);
+  color: var(--royal-blue);
+}
+.signup {
+  position: relative;
+  background-color: var(--white);
+  width: 100%;
+  overflow: hidden;
+  flex-direction: column;
+  text-align: left;
+  font-size: var(--h5-btns-med-14-size);
+  color: var(--logo-black);
+  font-family: var(--p1-regular-16);
+}
+@media screen and (max-width: 1200px) {
+  .menu {
+    display: flex;
+  }
+  .buttonText1:hover {
+    color: var(--color-black);
+  }
+  .register {
+    display: none;
+  }
+  .image131Icon {
+    width: 80%;
+    height: 200px;
+    justify-content: center;
+  }
+  .welcomeToScholistContainer {
+    font-size: var(--font-size-17xl);
+  }
+  .applyingToScholarships {
+    font-size: var(--font-size-smi);
+  }
+  .leftPanel {
+    flex: unset;
+    align-self: stretch;
+  }
+  .rightPanel {
+    width: 100%;
+  }
+  .body {
+    flex-direction: column;
+    gap: var(--gap-43xs);
+    padding-left: 0;
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 850px) {
+  .topNavLeft {
+    display: none;
+  }
+  .menu {
+    display: flex;
+  }
+  .register {
+    display: none;
+  }
+  .leftPanel {
+    flex: unset;
+    align-self: stretch;
+  }
+  .rightPanel {
+    padding: var(--padding-81xl) var(--padding-11xl);
+    box-sizing: border-box;
+  }
+  .body {
+    flex-direction: column;
+  }
+}
+@media screen and (max-width: 520px) {
+  .languageIcon {
+    width: 14px;
+    height: 14px;
+  }
+  .language {
+    font-size: var(--font-size-3xs);
+  }
+  .lineUnderLink,
+  .lineUnderLink1 {
+    width: 69px;
+  }
+  .headertopNavlinkParent {
+    gap: var(--gap-mini);
+  }
+  .leftSideSecondaryNav {
+    gap: var(--gap-base);
+  }
+  .leftSideTopNavParent {
+    gap: var(--gap-301xl);
+  }
+  .headertopNavprimary {
+    align-items: center;
+    justify-content: center;
+  }
+  .leftPanel {
+    height: 40%;
+    padding-left: var(--padding-xl);
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+  .createYourAccount2 {
+    font-size: var(--font-size-mid);
+    text-align: center;
+  }
+  .inputtextboxnoLabel {
+    width: 270px;
+  }
+  .signUp {
+    font-size: var(--p1-regular-16-size);
+    text-align: center;
+    width: 246px;
+  }
+  .buttonxxlarge {
+    width: 270px;
+  }
+  .bySubmittingThisContainer {
+    font-size: var(--font-size-5xs);
+    text-align: left;
+    width: 258px;
+  }
+  .bySubmittingThisFormYouCWrapper {
+    padding-top: var(--padding-8xs);
+    box-sizing: border-box;
+  }
+  .createYourAccount {
+    width: 90%;
+  }
+  .rightPanel {
+    height: 50%;
+    padding: var(--padding-31xl) var(--padding-3xs);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 360px) {
+  .headertopNavsecondary {
+    display: none;
+  }
+  .headerlogoIcon {
+    width: 124px;
+    height: 31px;
+  }
+  .menu {
+    width: 37px;
+    height: 37px;
+  }
+  .leftSideTopNavParent {
+    gap: var(--gap-281xl);
+  }
+  .buttonxxlarge,
+  .inputtextboxnoLabel {
+    width: 240px;
+  }
+  .bySubmittingThisContainer {
+    text-align: justify;
+    flex: 1;
+  }
+}

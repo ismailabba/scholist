@@ -1,0 +1,889 @@
+.scholistProfile {
+  position: relative;
+}
+.header {
+  width: 1446px;
+  height: 191px;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-76xl) var(--padding-429xl) var(--padding-smi);
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: center;
+}
+.name {
+  position: relative;
+  line-height: 150%;
+}
+.inputtextboxdatemonth,
+.inputtextboxdateyear {
+  border: 1px solid var(--gray-2);
+  font-family: var(--p1-regular-16);
+  font-size: var(--p1-regular-16-size);
+  background-color: var(--white);
+  border-radius: var(--br-5xs);
+  box-shadow: var(--shadow-1);
+  box-sizing: border-box;
+  width: 85px;
+  height: 42px;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-5xs) var(--padding-mini);
+  align-items: center;
+  justify-content: center;
+}
+.inputtextboxdateyear {
+  width: 125px;
+  padding: var(--padding-5xs) var(--padding-lg);
+}
+.inputtextboxdatemonthParent,
+.nameParent {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 39px;
+}
+.nameParent {
+  align-items: center;
+  gap: 306px;
+}
+.multiselectdefault,
+.quizQuestion {
+  border-radius: var(--br-5xs);
+  border: 1px solid var(--gray-3);
+}
+.quizQuestion {
+  display: flex;
+  flex-direction: column;
+  padding: var(--padding-xl) var(--padding-34xl);
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.multiselectdefault {
+  position: relative;
+  background-color: var(--white);
+  box-shadow: var(--shadow-1);
+  box-sizing: border-box;
+  width: 373px;
+  height: 42px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.nameGroup,
+.quizQuestion1 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+.nameGroup {
+  gap: 223px;
+}
+.quizQuestion1 {
+  border-radius: var(--br-5xs);
+  border: 1px solid var(--gray-3);
+  padding: var(--padding-3xl) var(--padding-35xl);
+}
+.name2,
+.text {
+  line-height: 150%;
+}
+.name2 {
+  position: relative;
+  display: inline-block;
+  width: 136px;
+  flex-shrink: 0;
+}
+.text {
+  position: absolute;
+  top: 3.85%;
+  left: 56.25%;
+}
+.outerRadioContainer,
+.radioCircleEmpty {
+  position: absolute;
+  height: 100%;
+  top: 0;
+  bottom: 0;
+  left: 0;
+}
+.outerRadioContainer {
+  width: 100%;
+  right: 0;
+  border-radius: var(--br-31xl);
+  background-color: var(--gray-1);
+  box-shadow: var(--shadow-1);
+  border: 1px solid var(--gray-3);
+  box-sizing: border-box;
+}
+.radioCircleEmpty {
+  width: 40.63%;
+  right: 59.38%;
+}
+.buttonradio {
+  position: relative;
+  width: 64px;
+  height: 26px;
+}
+.nameContainer,
+.yesNoRadioButtons {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+.yesNoRadioButtons {
+  width: 373px;
+  gap: var(--gap-13xl);
+}
+.nameContainer {
+  gap: var(--gap-217xl);
+}
+.quizQuestion2 {
+  border-radius: var(--br-5xs);
+  border: 1px solid var(--gray-3);
+  display: flex;
+  flex-direction: column;
+  padding: var(--padding-11xl) var(--padding-36xl);
+  align-items: flex-start;
+  justify-content: center;
+}
+.multiselectgender {
+  position: relative;
+  width: 373px;
+  height: 42px;
+}
+.frameDiv,
+.quizQuestion3 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+.frameDiv {
+  gap: var(--gap-292xl);
+}
+.quizQuestion3 {
+  border-radius: var(--br-5xs);
+  border: 1px solid var(--gray-3);
+  padding: var(--padding-3xl) 56px;
+}
+.sofiadropdownsdropdown2 {
+  position: relative;
+  width: 337px;
+  height: 42px;
+}
+.nameParent1,
+.quizQuestion4 {
+  display: flex;
+  justify-content: flex-start;
+}
+.nameParent1 {
+  height: 47px;
+  flex-direction: row;
+  padding: 0 var(--padding-13xl) 0 0;
+  box-sizing: border-box;
+  align-items: center;
+  gap: 230px;
+}
+.quizQuestion4 {
+  border-radius: var(--br-5xs);
+  border: 1px solid var(--gray-3);
+  flex-direction: column;
+  padding: var(--padding-2xl) var(--padding-35xl);
+  align-items: flex-start;
+}
+.multiselectdisability {
+  position: relative;
+  width: 380px;
+  height: 42px;
+}
+.nameParent2,
+.quizQuestion5 {
+  display: flex;
+  justify-content: flex-start;
+}
+.nameParent2 {
+  flex-direction: row;
+  align-items: center;
+  gap: var(--gap-281xl);
+}
+.quizQuestion5 {
+  border-radius: var(--br-5xs);
+  border: 1px solid var(--gray-3);
+  flex-direction: column;
+  padding: var(--padding-3xl) var(--padding-28xl);
+  align-items: flex-start;
+}
+.multiselectethnicity {
+  position: relative;
+  width: 373px;
+  height: 42px;
+}
+.nameParent3,
+.quizQuestion6 {
+  display: flex;
+  justify-content: flex-start;
+}
+.nameParent3 {
+  flex-direction: row;
+  align-items: center;
+  gap: 305px;
+}
+.quizQuestion6 {
+  border-radius: var(--br-5xs);
+  border: 1px solid var(--gray-3);
+  flex-direction: column;
+  padding: var(--padding-3xl) var(--padding-35xl);
+  align-items: flex-start;
+}
+.multiselectreligion {
+  position: relative;
+  width: 373px;
+  height: 42px;
+}
+.nameParent4 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 309px;
+}
+.name8 {
+  position: relative;
+  line-height: 150%;
+  display: inline-block;
+  width: 151px;
+  flex-shrink: 0;
+}
+.multiselectattributes {
+  position: relative;
+  width: 373px;
+  height: 42px;
+}
+.nameParent5 {
+  align-items: center;
+  gap: 221px;
+}
+.nameParent5,
+.nameParent6,
+.yesNoRadioButtons1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.yesNoRadioButtons1 {
+  width: 373px;
+  align-items: flex-start;
+  gap: var(--gap-13xl);
+}
+.nameParent6 {
+  align-items: center;
+  gap: var(--gap-217xl);
+}
+.quizQuestion9 {
+  border-radius: var(--br-5xs);
+  border: 1px solid var(--gray-3);
+  display: flex;
+  flex-direction: column;
+  padding: var(--padding-11xl) var(--padding-36xl);
+  align-items: flex-start;
+  justify-content: center;
+}
+.formBody,
+.scholarshipQuestions2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.scholarshipQuestions2 {
+  border-radius: var(--br-5xs);
+  border: 1px solid var(--gray-3);
+  flex-direction: column;
+  padding: var(--padding-17xl) var(--padding-13xl);
+  gap: var(--gap-lg);
+}
+.formBody {
+  width: 1253px;
+  overflow: hidden;
+  flex-direction: row;
+  padding: var(--padding-2xl) var(--padding-51xl) var(--padding-2xl)
+    var(--padding-244xl);
+  box-sizing: border-box;
+}
+.exit {
+  position: relative;
+  font-size: var(--p1-regular-16-size);
+  font-weight: 500;
+  font-family: var(--p1-regular-16);
+  color: var(--white);
+  text-align: left;
+}
+.exitWrapper {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-mini) var(--padding-52xl);
+  background-color: var(--royal-blue);
+  border-radius: var(--br-5xs);
+  width: 169px;
+  height: 54px;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: row;
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: center;
+}
+.vectorIcon {
+  position: relative;
+  width: 10.95px;
+  height: 18.95px;
+}
+.vectorWrapper {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-mid) var(--padding-55xl);
+  background-color: var(--royal-blue);
+  border-radius: var(--br-5xs);
+  width: 163.14px;
+  height: 53.12px;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: row;
+  box-sizing: border-box;
+}
+.exitButton,
+.frameParent,
+.vectorWrapper {
+  align-items: center;
+  justify-content: center;
+}
+.frameParent {
+  display: flex;
+  flex-direction: row;
+  gap: var(--gap-140xl);
+}
+.exitButton {
+  width: 1445px;
+  height: 227px;
+  flex-shrink: 0;
+  padding: var(--padding-6xl) var(--padding-243xl) var(--padding-73xl);
+  box-sizing: border-box;
+}
+.body,
+.body1,
+.exitButton {
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+.body1 {
+  align-items: flex-start;
+  justify-content: flex-start;
+  font-size: var(--p1-regular-16-size);
+}
+.body {
+  align-items: center;
+  justify-content: center;
+}
+.footerlogoIcon {
+  position: relative;
+  width: 148px;
+  height: 45px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.navLink {
+  position: absolute;
+  top: 0;
+  left: 0;
+  line-height: 150%;
+}
+.footerlinknav {
+  position: relative;
+  width: 160px;
+  height: 19px;
+}
+.footerLinks {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+}
+.footericoninstagram {
+  position: relative;
+  width: 20px;
+  height: 20px;
+}
+.footericonfacbook {
+  position: relative;
+  width: 18.75px;
+  height: 18.75px;
+}
+.footericontwitter {
+  position: relative;
+  width: 19.5px;
+  height: 15.84px;
+}
+.footericonyoutube {
+  position: relative;
+  width: 21px;
+  height: 14.72px;
+}
+.iconWrapper {
+  display: flex;
+  flex-direction: row;
+  padding: 0 var(--padding-5xs);
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-xs);
+}
+.footerMenu {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-11xl);
+}
+.students {
+  position: relative;
+  font-weight: 500;
+  display: inline-block;
+  width: 160px;
+}
+.footerLink {
+  position: absolute;
+  width: 100%;
+  top: 0;
+  left: 0;
+  line-height: 150%;
+  display: inline-block;
+}
+.mainFooterLink {
+  position: relative;
+  width: 160px;
+  height: 24px;
+}
+.footerMenu1 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-base);
+}
+.footerLink12 {
+  position: absolute;
+  width: 100%;
+  top: 0;
+  left: 0;
+  line-height: 150%;
+  text-indent: 1px;
+  display: inline-block;
+}
+.mainFooterLink12 {
+  position: relative;
+  width: 160px;
+  height: 71px;
+  font-size: var(--p2-regular-12-size);
+}
+.textBox {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: var(--br-7xs);
+  background-color: var(--white);
+  box-shadow: var(--shadow-1);
+}
+.inputPlaceholder {
+  position: absolute;
+  top: 4px;
+  left: 10px;
+  font-weight: 500;
+  display: inline-block;
+  width: 181px;
+  height: 25px;
+}
+.subscribeEmailTextBox {
+  position: relative;
+  width: 198px;
+  height: 28px;
+  color: var(--gray-4);
+}
+.button,
+.buttonText {
+  position: absolute;
+  width: 100%;
+  left: 0;
+}
+.button {
+  height: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  border-radius: var(--br-5xs);
+  background-color: var(--purple-blue);
+}
+.buttonText {
+  height: 95%;
+  top: 2.5%;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.buttonlarge {
+  position: relative;
+  width: 198px;
+  height: 32px;
+  text-align: center;
+}
+.footerGridRow,
+.footerLinks4,
+.footerMenuParent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.footerLinks4 {
+  flex-direction: column;
+  gap: var(--gap-5xs);
+  font-size: var(--h5-btns-med-14-size);
+}
+.footerGridRow,
+.footerMenuParent {
+  flex-direction: row;
+  gap: var(--gap-69xl);
+}
+.footerGridRow {
+  justify-content: center;
+}
+.scholistAllRights {
+  position: relative;
+  line-height: 150%;
+}
+.footerLegal {
+  width: 827px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-365xl);
+}
+.footer,
+.personalProfile {
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.footer {
+  align-self: stretch;
+  background-color: var(--gray-4);
+  padding: var(--padding-63xl) var(--padding-105xl) var(--padding-20xl);
+  align-items: flex-start;
+  gap: var(--gap-62xl);
+  font-size: var(--p1-regular-16-size);
+  color: var(--gray-1);
+}
+.personalProfile {
+  position: relative;
+  background-color: var(--white);
+  width: 100%;
+  align-items: center;
+  gap: var(--gap-11xs);
+  text-align: left;
+  font-size: var(--h1-bold-52-size);
+  color: var(--logo-black);
+  font-family: var(--p1-regular-16);
+}
+@media screen and (max-width: 1200px) {
+  .nameParent {
+    gap: var(--gap-111xl);
+  }
+  .multiselectdefault {
+    width: 313px;
+  }
+  .nameGroup {
+    gap: var(--gap-96xl);
+  }
+  .nameContainer {
+    gap: 66px;
+  }
+  .multiselectgender {
+    width: 313px;
+  }
+  .frameDiv {
+    gap: var(--gap-181xl);
+  }
+  .sofiadropdownsdropdown2 {
+    width: 290px;
+  }
+  .nameParent1 {
+    gap: var(--gap-96xl);
+  }
+  .multiselectdisability {
+    width: 320px;
+  }
+  .nameParent2 {
+    gap: var(--gap-181xl);
+  }
+  .multiselectethnicity {
+    width: 323px;
+  }
+  .nameParent3 {
+    gap: var(--gap-171xl);
+  }
+  .multiselectreligion {
+    width: 323px;
+  }
+  .nameParent4 {
+    gap: 198px;
+  }
+  .multiselectattributes {
+    width: 323px;
+  }
+  .nameParent5 {
+    gap: 110px;
+  }
+  .nameParent6 {
+    gap: 76px;
+  }
+  .scholarshipQuestions2 {
+    width: 700px;
+  }
+  .exitWrapper {
+    width: 90%;
+  }
+  .body1 {
+    justify-content: center;
+  }
+  .footerMenuParent {
+    flex-wrap: wrap;
+  }
+  .footerGridRow {
+    flex-direction: column;
+    gap: var(--gap-31xl);
+  }
+}
+@media screen and (max-width: 850px) {
+  .scholistProfile {
+    font-size: var(--h2-bold-32-size);
+  }
+  .name {
+    font-size: var(--h5-btns-med-14-size);
+  }
+  .inputtextboxdatemonth,
+  .inputtextboxdateyear {
+    height: 37px;
+  }
+  .inputtextboxdatemonthParent {
+    gap: 25px;
+  }
+  .nameParent {
+    flex-direction: column;
+    gap: var(--gap-8xs);
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .quizQuestion {
+    padding-top: var(--padding-3xs);
+    box-sizing: border-box;
+  }
+  .multiselectdefault {
+    width: 343px;
+  }
+  .nameGroup {
+    flex-direction: column;
+    gap: var(--gap-3xs);
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .quizQuestion1 {
+    padding-top: var(--padding-xs);
+    padding-bottom: var(--padding-3xl);
+    box-sizing: border-box;
+  }
+  .name2 {
+    font-size: var(--h5-btns-med-14-size);
+  }
+  .yesNoRadioButtons {
+    width: 343px;
+  }
+  .nameContainer {
+    flex-direction: column;
+    gap: var(--gap-3xs);
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .quizQuestion2 {
+    padding-top: var(--padding-3xs);
+    box-sizing: border-box;
+  }
+  .multiselectgender {
+    width: 343px;
+  }
+  .frameDiv {
+    flex-direction: column;
+    gap: var(--gap-3xs);
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .quizQuestion3 {
+    padding-top: var(--padding-xs);
+    box-sizing: border-box;
+  }
+  .sofiadropdownsdropdown2 {
+    width: 315px;
+  }
+  .nameParent1 {
+    flex-direction: column;
+    gap: var(--gap-3xs);
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .quizQuestion4 {
+    padding-top: var(--padding-sm);
+    padding-bottom: var(--padding-16xl);
+    box-sizing: border-box;
+  }
+  .multiselectdisability {
+    width: 360px;
+  }
+  .nameParent2 {
+    flex-direction: column;
+    gap: var(--gap-3xs);
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .quizQuestion5 {
+    padding-top: var(--padding-xs);
+    box-sizing: border-box;
+  }
+  .multiselectethnicity {
+    width: 347px;
+  }
+  .nameParent3 {
+    flex-direction: column;
+    gap: var(--gap-3xs);
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .quizQuestion6 {
+    padding-top: var(--padding-xs);
+    box-sizing: border-box;
+  }
+  .multiselectreligion {
+    width: 346px;
+  }
+  .nameParent4 {
+    flex-direction: column;
+    gap: var(--gap-3xs);
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .name8 {
+    font-size: var(--h5-btns-med-14-size);
+  }
+  .multiselectattributes {
+    width: 347px;
+  }
+  .nameParent5 {
+    flex-direction: column;
+    gap: var(--gap-3xs);
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .yesNoRadioButtons1 {
+    width: 343px;
+  }
+  .nameParent6 {
+    flex-direction: column;
+    gap: var(--gap-3xs);
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .quizQuestion9 {
+    padding-top: var(--padding-mini);
+    box-sizing: border-box;
+  }
+  .scholarshipQuestions2 {
+    width: 450px;
+  }
+  .exitWrapper {
+    width: 30%;
+  }
+  .frameParent {
+    gap: var(--gap-130xl);
+  }
+}
+@media screen and (max-width: 520px) {
+  .inputtextboxdatemonth {
+    width: 75px;
+    height: 32px;
+  }
+  .inputtextboxdateyear {
+    width: 105px;
+    height: 32px;
+  }
+  .inputtextboxdatemonthParent {
+    gap: var(--gap-3xs);
+  }
+  .nameParent {
+    gap: var(--gap-8xs);
+  }
+  .multiselectdefault {
+    width: 273px;
+  }
+  .yesNoRadioButtons {
+    width: 272px;
+    gap: var(--gap-11xl);
+  }
+  .multiselectgender {
+    width: 272px;
+  }
+  .frameDiv {
+    gap: var(--gap-3xs);
+  }
+  .sofiadropdownsdropdown2 {
+    width: 245px;
+  }
+  .multiselectdisability {
+    width: 290px;
+  }
+  .multiselectethnicity {
+    width: 279px;
+  }
+  .multiselectreligion {
+    width: 276px;
+  }
+  .multiselectattributes {
+    width: 278px;
+  }
+  .yesNoRadioButtons1 {
+    width: 283px;
+  }
+  .scholarshipQuestions2 {
+    width: 350px;
+  }
+  .exitWrapper {
+    width: 129px;
+  }
+  .vectorWrapper {
+    width: 20px;
+  }
+  .frameParent {
+    gap: var(--gap-81xl);
+  }
+}

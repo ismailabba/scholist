@@ -1,0 +1,1161 @@
+.backToServices {
+  position: relative;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  width: 188px;
+  flex-shrink: 0;
+}
+.header {
+  align-self: stretch;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-mid) 1205px var(--padding-mid) var(--padding-28xl);
+  align-items: flex-start;
+  justify-content: flex-start;
+  color: var(--royal-blue);
+}
+.coachDetails {
+  position: relative;
+}
+.cardimgsmallshadowIcon {
+  position: relative;
+  width: 254.05px;
+  height: 243.05px;
+  object-fit: cover;
+}
+.coachdetailsprofileImg {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-base);
+}
+.saraWinters {
+  position: relative;
+  font-size: var(--h2-bold-32-size);
+}
+.scholarshipEssayExpertise {
+  position: relative;
+  font-weight: 500;
+  color: var(--purple-blue);
+}
+.members,
+.starsIcon {
+  position: relative;
+  width: 49px;
+  height: 8px;
+}
+.members {
+  letter-spacing: 0.08em;
+  line-height: 150%;
+  font-weight: 500;
+  display: inline-block;
+  width: 191px;
+  height: 19px;
+  flex-shrink: 0;
+}
+.coachReviewStars {
+  width: 199px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+  font-size: var(--p2-regular-12-size);
+  color: var(--gray-4);
+}
+.vectorIcon {
+  position: relative;
+  width: 20px;
+  height: 20px;
+}
+.hoursTutoring {
+  position: relative;
+  font-weight: 500;
+}
+.vectorParent {
+  gap: var(--gap-5xs);
+}
+.hourlyRate4000Wrapper,
+.vectorParent {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+.button,
+.buttonText {
+  position: absolute;
+  width: 100%;
+  left: 0;
+}
+.button {
+  height: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  border-radius: var(--br-5xs);
+  background-color: var(--logo-black);
+}
+.buttonText {
+  height: 95%;
+  top: 2.5%;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.buttonlarge {
+  position: relative;
+  width: 198px;
+  height: 32px;
+  text-align: center;
+  font-size: var(--h5-btns-med-14-size);
+  color: var(--gray-1);
+}
+.coachdetailscoachInfo {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-base);
+  font-size: var(--p1-regular-16-size);
+}
+.coachdetailsprofileImgParent {
+  width: 1103px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 89px;
+}
+.coachdetailsprofileChild {
+  overflow: hidden;
+}
+.coachdetailsprofile {
+  align-self: stretch;
+  border-radius: var(--br-5xs);
+  box-shadow: var(--shadow-1);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  font-size: var(--h2-bold-32-size);
+}
+.pageDivider {
+  align-self: stretch;
+  position: relative;
+  border-top: 1px solid var(--logo-black);
+  box-sizing: border-box;
+  height: 1px;
+}
+.aboutTheCoach1,
+.divider {
+  display: flex;
+  align-items: center;
+}
+.divider {
+  align-self: stretch;
+  overflow: hidden;
+  flex-direction: column;
+  padding: var(--padding-mid) var(--padding-141xl);
+  justify-content: center;
+}
+.aboutTheCoach1 {
+  position: relative;
+  width: 271px;
+  flex-shrink: 0;
+}
+.aboutTheCoach {
+  align-self: stretch;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-3xs) 946px var(--padding-3xs) 223px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  font-size: var(--h2-bold-32-size);
+}
+.bio2,
+.loremIpsumDolor {
+  position: relative;
+  font-weight: 500;
+}
+.loremIpsumDolor {
+  font-size: var(--p1-regular-16-size);
+  display: flex;
+  align-items: center;
+  width: 448px;
+  flex-shrink: 0;
+}
+.bio1 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 481px;
+}
+.bio,
+.universityOfPrestige {
+  display: flex;
+  align-items: center;
+}
+.bio {
+  width: 1440px;
+  overflow: hidden;
+  flex-direction: column;
+  padding: var(--padding-6xl) var(--padding-237xl) var(--padding-6xl)
+    var(--padding-205xl);
+  box-sizing: border-box;
+  justify-content: center;
+}
+.universityOfPrestige {
+  position: relative;
+  font-weight: 500;
+  width: 168px;
+  flex-shrink: 0;
+}
+.universityOfPrestigeWrapper {
+  width: 156px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+.policiesInner {
+  width: 402px;
+  flex-direction: column;
+  font-size: var(--p1-regular-16-size);
+}
+.education,
+.policies,
+.policiesInner {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.policies {
+  align-self: stretch;
+  flex-direction: row;
+  gap: 410px;
+}
+.education {
+  width: 1440px;
+  overflow: hidden;
+  flex-direction: column;
+  padding: var(--padding-4xl) var(--padding-283xl) var(--padding-5xl)
+    var(--padding-205xl);
+  box-sizing: border-box;
+}
+.vectorIcon1 {
+  position: relative;
+  width: 21px;
+  height: 20px;
+}
+.vectorGroup {
+  width: 402px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+}
+.vectorIcon2 {
+  position: relative;
+  width: 18px;
+  height: 20px;
+}
+.backgroundCheckLast {
+  position: relative;
+  font-weight: 500;
+}
+.vectorContainer {
+  width: 350px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+}
+.frameParent,
+.policies2 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.frameParent {
+  width: 402px;
+  flex-direction: column;
+  gap: var(--gap-5xs);
+  font-size: var(--p1-regular-16-size);
+}
+.policies2 {
+  align-self: stretch;
+  flex-direction: row;
+  gap: 436px;
+}
+.starsIcon1 {
+  position: relative;
+  width: 122.5px;
+  height: 20px;
+}
+.ratings3 {
+  position: relative;
+  font-weight: 500;
+  width: 309px;
+  flex-shrink: 0;
+}
+.ratings3,
+.reviewcoachstars,
+.star {
+  display: flex;
+  align-items: center;
+}
+.reviewcoachstars {
+  flex-direction: row;
+  justify-content: flex-start;
+  gap: 17px;
+}
+.star {
+  position: relative;
+  font-weight: 500;
+  width: 46px;
+  flex-shrink: 0;
+}
+.frameChild,
+.ratingBarInner {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-5xs) 0 0 var(--br-5xs);
+  background-color: var(--reviews);
+  width: 177px;
+  height: 24px;
+  overflow: hidden;
+}
+.ratingBarInner {
+  border-radius: var(--br-5xs);
+  background-color: var(--teal);
+  width: 192px;
+}
+.div,
+.ratingBar {
+  position: relative;
+}
+.ratingBar {
+  width: 192px;
+  height: 24px;
+}
+.div {
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  width: 63px;
+  flex-shrink: 0;
+}
+.starParent {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+}
+.star1 {
+  position: relative;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  width: 47px;
+  flex-shrink: 0;
+}
+.frameInner,
+.frameItem {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-5xs) 0 0 var(--br-5xs);
+  background-color: var(--reviews);
+  width: 11px;
+  height: 24px;
+  overflow: hidden;
+}
+.frameInner {
+  width: 7px;
+}
+.star3 {
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  width: 45px;
+}
+.ratingBar3,
+.star3,
+.star4 {
+  position: relative;
+  flex-shrink: 0;
+}
+.ratingBar3 {
+  border-radius: var(--br-5xs);
+  background-color: var(--teal);
+  width: 192px;
+  height: 24px;
+  overflow: hidden;
+}
+.star4 {
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  width: 42px;
+}
+.ratingBars {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+  color: var(--logo-black);
+}
+.reviewcoachstarGraphic {
+  flex-direction: column;
+  gap: var(--gap-base);
+  font-size: var(--p1-regular-16-size);
+  color: var(--gray-5);
+}
+.ratings,
+.ratings1,
+.reviewcoachstarGraphic {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.ratings1 {
+  align-self: stretch;
+  flex-direction: row;
+  gap: 434px;
+}
+.ratings {
+  width: 1440px;
+  overflow: hidden;
+  flex-direction: column;
+  padding: var(--padding-6xl) 257px var(--padding-7xl) var(--padding-205xl);
+  box-sizing: border-box;
+}
+.writeAReview {
+  position: relative;
+  font-weight: 600;
+}
+.haveYouWorked,
+.letUsKnow {
+  position: relative;
+  font-size: var(--h3-medium-20-size);
+  font-weight: 500;
+}
+.letUsKnow {
+  font-size: var(--h5-btns-med-14-size);
+  color: var(--gray-5);
+}
+.writeReviewText {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+}
+.button1,
+.buttonlarge1 {
+  background-color: var(--purple-blue);
+}
+.button1 {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: var(--br-5xs);
+}
+.buttonlarge1 {
+  position: relative;
+  width: 198px;
+  height: 32px;
+  text-align: center;
+  font-size: var(--h5-btns-med-14-size);
+  color: var(--gray-1);
+}
+.reviewcoachuserPrompt,
+.reviewcoachuserPromptWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.reviewcoachuserPrompt {
+  gap: var(--gap-base);
+}
+.reviewcoachuserPromptWrapper {
+  width: 360px;
+  padding: var(--padding-3xs);
+  box-sizing: border-box;
+}
+.starsIcon2 {
+  position: relative;
+  width: 94.69px;
+  height: 15.46px;
+}
+.ratings4 {
+  position: relative;
+  font-weight: 500;
+  width: 238.85px;
+  flex-shrink: 0;
+}
+.ratings4,
+.reviewcoachstars1,
+.star5 {
+  display: flex;
+  align-items: center;
+}
+.reviewcoachstars1 {
+  flex-direction: row;
+  justify-content: flex-start;
+  gap: 13.14px;
+}
+.star5 {
+  position: relative;
+  font-weight: 500;
+  width: 35.56px;
+  flex-shrink: 0;
+}
+.frameChild1,
+.ratingBarInner1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 6.18px 0 0 6.18px;
+  background-color: var(--reviews);
+  width: 136.82px;
+  height: 18.55px;
+  overflow: hidden;
+}
+.ratingBarInner1 {
+  border-radius: 6.18px;
+  background-color: var(--teal);
+  width: 148.41px;
+}
+.ratingBar5 {
+  position: relative;
+  width: 148.41px;
+  height: 18.55px;
+}
+.div5 {
+  position: relative;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  width: 48.7px;
+  flex-shrink: 0;
+}
+.starParent3 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 6.18px;
+}
+.star6 {
+  position: relative;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  width: 36.33px;
+  flex-shrink: 0;
+}
+.frameChild2,
+.frameChild3 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 6.18px 0 0 6.18px;
+  background-color: var(--reviews);
+  width: 8.5px;
+  height: 18.55px;
+  overflow: hidden;
+}
+.frameChild3 {
+  width: 5.41px;
+}
+.star8 {
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  width: 34.78px;
+}
+.ratingBar8,
+.star8,
+.star9 {
+  position: relative;
+  flex-shrink: 0;
+}
+.ratingBar8 {
+  border-radius: 6.18px;
+  background-color: var(--teal);
+  width: 148.41px;
+  height: 18.55px;
+  overflow: hidden;
+}
+.star9 {
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  width: 32.47px;
+}
+.ratingBars1 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: 6.18px;
+  font-size: 12.37px;
+  color: var(--logo-black);
+}
+.reviewcoachstarGraphicsmal {
+  justify-content: flex-start;
+  gap: 12.37px;
+}
+.coachRating,
+.reviewcoachstarGraphicsmal,
+.reviewcoachstarGraphicsmalWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.reviewcoachstarGraphicsmalWrapper {
+  padding: var(--padding-3xs);
+  justify-content: flex-start;
+  font-size: var(--p1-regular-16-size);
+  color: var(--gray-5);
+}
+.coachRating {
+  width: 666.69px;
+  overflow: hidden;
+  flex-shrink: 0;
+  padding: var(--padding-98xl) 120px var(--padding-98xl) var(--padding-161xl);
+  box-sizing: border-box;
+  justify-content: center;
+  gap: var(--gap-9xl);
+}
+.buttonText2 {
+  position: relative;
+  letter-spacing: 0.08em;
+  line-height: 150%;
+  font-weight: 500;
+}
+.vectorIcon3 {
+  position: relative;
+  width: 10px;
+  height: 6px;
+}
+.tagfilterSort,
+.topReviews1 {
+  display: flex;
+  align-items: center;
+}
+.tagfilterSort {
+  border-radius: var(--br-base);
+  box-shadow: var(--shadow-1);
+  border: 1.5px solid var(--logo-black);
+  flex-direction: row;
+  padding: var(--padding-10xs) var(--padding-5xs) var(--padding-10xs)
+    var(--padding-base);
+  justify-content: flex-end;
+  gap: var(--gap-5xs);
+  text-align: center;
+  font-size: var(--p2-regular-12-size);
+}
+.topReviews1 {
+  position: relative;
+  font-size: var(--h3-medium-20-size);
+  font-weight: 500;
+  width: 125px;
+}
+.reviewcoachreviewerImgIcon {
+  position: relative;
+  width: 52px;
+  height: 52px;
+  object-fit: cover;
+}
+.reviewedOnAugust {
+  position: relative;
+  font-size: var(--p2-regular-12-size);
+  line-height: 150%;
+  text-indent: 1px;
+}
+.loremIpsumDolor1 {
+  position: relative;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  width: 480px;
+  flex-shrink: 0;
+}
+.loremIpsumDolorSitAmetConWrapper,
+.reviewcoachreviewerFull {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.loremIpsumDolorSitAmetConWrapper {
+  width: 553px;
+  flex-direction: row;
+  padding: var(--padding-3xs) var(--padding-3xs) var(--padding-3xs)
+    var(--padding-44xl);
+  box-sizing: border-box;
+}
+.reviewcoachreviewerFull {
+  flex-direction: column;
+}
+.loremIpsumDolor2 {
+  position: absolute;
+  width: 88.89%;
+  top: 34.07%;
+  left: 11.11%;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+}
+.reviewcoachreviewerImgIcon1 {
+  position: absolute;
+  height: 28.57%;
+  width: 9.63%;
+  top: 0;
+  right: 90.37%;
+  bottom: 71.43%;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.nameSection1 {
+  position: absolute;
+  height: 27.47%;
+  width: 31.67%;
+  top: 2.2%;
+  right: 57.22%;
+  bottom: 70.33%;
+  left: 11.11%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.reviewcoachreviewerFull1 {
+  position: relative;
+  width: 540px;
+  height: 182px;
+}
+.reviews,
+.topReviews {
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.topReviews {
+  width: 769.31px;
+  flex-shrink: 0;
+  flex-direction: column;
+  padding: var(--padding-4xl) 260px 96px 201px;
+  box-sizing: border-box;
+  gap: var(--gap-9xl);
+  font-size: var(--p1-regular-16-size);
+}
+.reviews {
+  flex-direction: row;
+  gap: var(--gap-9xs);
+  font-size: var(--h2-bold-32-size);
+}
+.footerlogoIcon {
+  position: relative;
+  width: 148px;
+  height: 45px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.navLink {
+  position: absolute;
+  top: 0;
+  left: 0;
+  line-height: 150%;
+}
+.footerlinknav {
+  position: relative;
+  width: 160px;
+  height: 19px;
+}
+.footericonfacbook {
+  position: relative;
+  width: 18.75px;
+  height: 18.75px;
+}
+.footericontwitter {
+  position: relative;
+  width: 19.5px;
+  height: 15.84px;
+}
+.footericonyoutube {
+  position: relative;
+  width: 21px;
+  height: 14.72px;
+}
+.iconWrapper {
+  display: flex;
+  flex-direction: row;
+  padding: 0 var(--padding-5xs);
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-xs);
+}
+.footerMenu {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-11xl);
+}
+.students {
+  position: relative;
+  font-weight: 500;
+  display: inline-block;
+  width: 160px;
+}
+.footerLink {
+  position: absolute;
+  width: 100%;
+  top: 0;
+  left: 0;
+  line-height: 150%;
+  display: inline-block;
+}
+.mainFooterLink {
+  position: relative;
+  width: 160px;
+  height: 24px;
+}
+.footerLink12 {
+  position: absolute;
+  width: 100%;
+  top: 0;
+  left: 0;
+  line-height: 150%;
+  text-indent: 1px;
+  display: inline-block;
+}
+.mainFooterLink12 {
+  position: relative;
+  width: 160px;
+  height: 71px;
+  font-size: var(--p2-regular-12-size);
+}
+.textBox {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: var(--br-7xs);
+  background-color: var(--white);
+  box-shadow: var(--shadow-1);
+}
+.inputPlaceholder {
+  position: absolute;
+  top: 4px;
+  left: 10px;
+  font-weight: 500;
+  display: inline-block;
+  width: 181px;
+  height: 25px;
+}
+.subscribeEmailTextBox {
+  position: relative;
+  width: 198px;
+  height: 28px;
+  color: var(--gray-4);
+}
+.buttonlarge2 {
+  position: relative;
+  width: 198px;
+  height: 32px;
+  text-align: center;
+}
+.footerGridRow,
+.footerLinks4,
+.footerMenuParent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.footerLinks4 {
+  flex-direction: column;
+  gap: var(--gap-5xs);
+  font-size: var(--h5-btns-med-14-size);
+}
+.footerGridRow,
+.footerMenuParent {
+  flex-direction: row;
+  gap: var(--gap-69xl);
+}
+.footerGridRow {
+  justify-content: center;
+}
+.scholistAllRights {
+  position: relative;
+  line-height: 150%;
+}
+.footerLegal {
+  width: 827px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-365xl);
+}
+.coachPage,
+.footer {
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.footer {
+  align-self: stretch;
+  background-color: var(--gray-4);
+  padding: var(--padding-63xl) var(--padding-105xl) var(--padding-20xl);
+  align-items: flex-start;
+  gap: var(--gap-62xl);
+  font-size: var(--p1-regular-16-size);
+  color: var(--gray-1);
+}
+.coachPage {
+  position: relative;
+  background-color: var(--white);
+  width: 100%;
+  align-items: center;
+  gap: var(--gap-12xs);
+  text-align: left;
+  font-size: var(--h3-medium-20-size);
+  color: var(--logo-black);
+  font-family: var(--p1-regular-16);
+}
+@media screen and (max-width: 1200px) {
+  .coachdetailsprofileImgParent {
+    flex-direction: row;
+    padding-left: 222px;
+    box-sizing: border-box;
+  }
+  .bio1 {
+    gap: var(--gap-181xl);
+  }
+  .bio,
+  .policies {
+    box-sizing: border-box;
+  }
+  .bio {
+    padding-left: var(--padding-381xl);
+  }
+  .policies {
+    gap: var(--gap-139xl);
+    padding-left: 0;
+  }
+  .education {
+    align-items: center;
+    justify-content: center;
+    padding-left: var(--padding-381xl);
+    box-sizing: border-box;
+  }
+  .policies2 {
+    padding-left: 0;
+    box-sizing: border-box;
+  }
+  .policies2,
+  .ratings1 {
+    gap: var(--gap-139xl);
+  }
+  .ratings {
+    padding-left: var(--padding-381xl);
+    box-sizing: border-box;
+  }
+  .writeAReview {
+    font-size: var(--font-size-7xl);
+  }
+  .haveYouWorked {
+    font-size: var(--font-size-mini);
+  }
+  .letUsKnow {
+    font-size: var(--p2-regular-12-size);
+  }
+  .coachRating {
+    background-color: var(--white);
+    width: 300px;
+    align-items: center;
+    justify-content: center;
+    padding-left: var(--padding-331xl);
+    padding-right: var(--padding-26xl);
+    box-sizing: border-box;
+  }
+  .loremIpsumDolor1,
+  .loremIpsumDolor2 {
+    font-size: var(--font-size-smi);
+    width: 360px;
+  }
+  .topReviews {
+    align-items: center;
+    justify-content: center;
+    padding-left: var(--padding-79xl);
+    padding-right: 0;
+    box-sizing: border-box;
+  }
+  .footerMenuParent {
+    flex-wrap: wrap;
+  }
+  .footerGridRow {
+    flex-direction: column;
+    gap: var(--gap-31xl);
+  }
+  .coachPage {
+    padding-left: 0;
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 850px) {
+  .coachdetailsprofileImgParent {
+    flex-direction: column;
+    gap: var(--gap-3xs);
+    padding-left: 0;
+    box-sizing: border-box;
+  }
+  .coachdetailsprofile {
+    height: 600px;
+  }
+  .aboutTheCoach {
+    align-items: center;
+    justify-content: center;
+    padding-left: 0;
+    padding-right: 0;
+    box-sizing: border-box;
+  }
+  .bio1 {
+    flex-direction: column;
+    gap: var(--gap-3xs);
+  }
+  .bio {
+    padding-left: var(--padding-481xl);
+    padding-right: var(--padding-237xl);
+    box-sizing: border-box;
+  }
+  .policies {
+    flex-direction: column;
+    gap: var(--gap-3xs);
+  }
+  .education {
+    align-items: center;
+    justify-content: center;
+    padding-left: var(--padding-481xl);
+    padding-right: var(--padding-237xl);
+    box-sizing: border-box;
+  }
+  .policies2,
+  .ratings1 {
+    flex-direction: column;
+    gap: var(--gap-3xs);
+  }
+  .coachRating,
+  .ratings {
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+  }
+  .ratings {
+    padding-left: var(--padding-8xs);
+    padding-right: var(--padding-237xl);
+  }
+  .coachRating {
+    width: 700px;
+    padding-left: 0;
+    padding-top: var(--padding-31xl);
+    padding-right: 0;
+  }
+  .topReviews {
+    padding-top: var(--padding-8xs);
+    box-sizing: border-box;
+  }
+  .reviews {
+    flex-direction: column;
+  }
+  .footerLegal {
+    gap: var(--gap-181xl);
+  }
+}
+@media screen and (max-width: 520px) {
+  .aboutTheCoach1 {
+    font-size: var(--font-size-5xl);
+  }
+  .aboutTheCoach {
+    align-items: center;
+    justify-content: center;
+    padding-right: 0;
+    box-sizing: border-box;
+  }
+  .bio2 {
+    font-size: var(--p1-regular-16-size);
+  }
+  .loremIpsumDolor {
+    font-size: var(--font-size-2xs);
+    width: 318px;
+  }
+  .bio {
+    padding-left: var(--padding-561xl);
+    padding-top: var(--padding-8xs);
+    box-sizing: border-box;
+    justify-content: center;
+  }
+  .universityOfPrestige {
+    font-size: var(--font-size-2xs);
+  }
+  .education {
+    padding-left: var(--padding-561xl);
+    box-sizing: border-box;
+  }
+  .backgroundCheckLast {
+    font-size: var(--font-size-2xs);
+  }
+  .coachRating,
+  .ratings {
+    padding-left: var(--padding-561xl);
+    box-sizing: border-box;
+  }
+  .coachRating {
+    padding-left: var(--padding-51xl);
+  }
+  .loremIpsumDolor1,
+  .loremIpsumDolor2 {
+    font-size: var(--font-size-2xs);
+    width: 220px;
+  }
+  .topReviews {
+    align-items: center;
+    justify-content: center;
+    padding-left: var(--padding-231xl);
+    box-sizing: border-box;
+  }
+  .footerLegal {
+    flex-direction: column;
+    gap: var(--gap-3xs);
+  }
+}

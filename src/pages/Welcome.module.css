@@ -1,0 +1,594 @@
+.languageIcon {
+  position: relative;
+  width: 16px;
+  height: 16px;
+}
+.language {
+  position: relative;
+  font-weight: 500;
+}
+.downIcon {
+  position: relative;
+  width: 10px;
+  height: 6.18px;
+}
+.headerdropDownlang,
+.rightSideSecondaryNav {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+}
+.headerdropDownlang {
+  gap: var(--gap-5xs);
+}
+.rightSideSecondaryNav {
+  position: absolute;
+  top: calc(50% - 11px);
+  right: 0;
+  padding: 0 var(--padding-13xl) 0 0;
+}
+.lineUnderLink {
+  position: relative;
+  background-color: var(--gray-4);
+  width: 109px;
+  height: 2px;
+}
+.headertopNavlink {
+  display: flex;
+  flex-direction: column;
+  padding: var(--padding-5xs) 0 0;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+}
+.lineUnderLink1 {
+  position: relative;
+  background-color: var(--gray-3);
+  width: 109px;
+  height: 2px;
+}
+.headertopNavlinkParent,
+.leftSideSecondaryNav {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.headertopNavlinkParent {
+  gap: var(--gap-13xl);
+}
+.leftSideSecondaryNav {
+  position: absolute;
+  top: calc(50% - 20px);
+  left: 0;
+  padding: 0 0 0 var(--padding-13xl);
+}
+.headertopNavsecondary {
+  align-self: stretch;
+  position: relative;
+  background-color: var(--gray-1);
+  height: 40px;
+}
+.headerlogoIcon {
+  position: relative;
+  width: 134px;
+  height: 41px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.navActive {
+  position: relative;
+  font-weight: 500;
+}
+.headernavLink,
+.headernavLink1 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+.headernavLink {
+  text-decoration: none;
+  color: var(--royal-blue);
+}
+.headernavLink1 {
+  cursor: pointer;
+}
+.headernavLink1,
+.headernavLink2 {
+  text-decoration: none;
+  color: inherit;
+}
+.headernavLink2,
+.headernavLink4 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+.headernavLinkParent {
+  flex: 1;
+  align-items: flex-start;
+  gap: var(--gap-13xl);
+}
+.headerlogoParent,
+.headernavLinkParent,
+.topNavLeft {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.topNavLeft {
+  flex: 1;
+  height: 21px;
+  align-items: center;
+}
+.headerlogoParent {
+  position: absolute;
+  top: 0;
+  left: 32px;
+  width: 644px;
+  align-items: flex-end;
+  gap: var(--gap-13xl);
+}
+.leftSideTopNav {
+  flex: 1;
+  position: relative;
+  height: 41px;
+}
+.vectorIcon,
+.vectorIcon1 {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.vectorIcon1 {
+  height: 50%;
+  width: 75%;
+  top: 25%;
+  right: 12.5%;
+  bottom: 25%;
+  left: 12.5%;
+}
+.menu {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: relative;
+  width: 47px;
+  height: 47px;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: none;
+}
+.buttonText {
+  position: relative;
+  font-size: var(--h5-btns-med-14-size);
+  font-weight: 500;
+  font-family: var(--p1-regular-16);
+  color: var(--logo-black);
+  text-align: center;
+}
+.buttonmedium {
+  cursor: pointer;
+  border: 1px solid var(--logo-black);
+  padding: var(--padding-12xs) 0;
+  background-color: transparent;
+  border-radius: var(--br-5xs);
+  box-sizing: border-box;
+  width: 128px;
+  height: 40px;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.buttonmedium:hover {
+  background-color: var(--color-limegreen);
+}
+.buttonmedium:active {
+  background-color: var(--white);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.83);
+}
+.buttonText1 {
+  position: relative;
+  font-size: var(--h5-btns-med-14-size);
+  font-weight: 500;
+  font-family: var(--p1-regular-16);
+  color: var(--gray-1);
+  text-align: center;
+}
+.buttonText1:hover {
+  color: var(--color-black);
+}
+.buttonText1:active {
+  -webkit-text-stroke: 1px #000;
+  text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+}
+.buttonmedium1 {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-12xs) 0;
+  background-color: var(--royal-blue);
+  border-radius: var(--br-5xs);
+  width: 128px;
+  height: 40px;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: row;
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: center;
+}
+.buttonmedium1:hover {
+  background-color: var(--color-limegreen);
+}
+.register,
+.rightSideTopNav {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-13xl);
+}
+.rightSideTopNav {
+  padding: 0 var(--padding-13xl) 0 0;
+  align-items: flex-end;
+  justify-content: flex-end;
+}
+.leftSideTopNavParent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-425xl);
+}
+.headertopNavprimary,
+.navBar {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.headertopNavprimary {
+  background-color: var(--gray-1);
+  border-bottom: 1px solid var(--gray-3);
+  padding: var(--padding-lgi) 0;
+}
+.navBar {
+  height: 120px;
+}
+.footerlogoIcon {
+  position: relative;
+  width: 104px;
+  height: 95px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.headerImage {
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  padding: 38px var(--padding-191xl);
+  align-items: center;
+  justify-content: center;
+}
+.welcomeToScholist {
+  position: relative;
+  display: inline-block;
+  width: 347px;
+  flex-shrink: 0;
+}
+.welcome2 {
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-mini) var(--padding-69xl);
+  align-items: center;
+  justify-content: center;
+  font-size: var(--h2-bold-32-size);
+  color: var(--royal-blue);
+}
+.wouldYouLike {
+  margin: 0;
+}
+.wouldYouLikeContainer {
+  position: relative;
+  line-height: 150%;
+  display: inline-block;
+  width: 210px;
+  flex-shrink: 0;
+}
+.continue {
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-3xs) var(--padding-138xl);
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.continue1 {
+  position: relative;
+  font-size: var(--p1-regular-16-size);
+  line-height: 150%;
+  font-family: var(--p1-regular-16);
+  color: var(--gray-1);
+  text-align: center;
+}
+.buttonxxlarge,
+.continueButton {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.buttonxxlarge {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-5xs) var(--padding-8xl);
+  background-color: var(--royal-blue);
+  border-radius: var(--br-7xs);
+  width: 400px;
+  height: 44px;
+  flex-direction: row;
+  box-sizing: border-box;
+}
+.continueButton {
+  align-self: stretch;
+  overflow: hidden;
+  flex-direction: column;
+  padding: var(--padding-xl) 62px;
+}
+.noThanksIll {
+  position: relative;
+  text-decoration: underline;
+  line-height: 150%;
+  display: inline-block;
+  width: 312px;
+  flex-shrink: 0;
+}
+.noThanksIllCompleteMyPrWrapper {
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-3xs);
+  align-items: center;
+  justify-content: center;
+}
+.noThanks {
+  align-self: stretch;
+  overflow: hidden;
+  padding: 0 var(--padding-7xs) var(--padding-16xl);
+  align-items: center;
+  justify-content: center;
+}
+.body,
+.noThanks,
+.welcome,
+.welcome1 {
+  display: flex;
+  flex-direction: column;
+}
+.welcome1 {
+  border-radius: var(--br-5xs);
+  background-color: var(--white);
+  width: 524px;
+  height: 521px;
+  align-items: center;
+  justify-content: flex-end;
+}
+.body,
+.welcome {
+  overflow: hidden;
+}
+.body {
+  align-self: stretch;
+  padding: 164px 458px;
+  align-items: center;
+  justify-content: center;
+  font-size: var(--p1-regular-16-size);
+}
+.welcome {
+  position: relative;
+  background-color: var(--royal-blue);
+  width: 100%;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-10xs);
+  text-align: left;
+  font-size: var(--h5-btns-med-14-size);
+  color: var(--logo-black);
+  font-family: var(--p1-regular-16);
+}
+@media screen and (max-width: 1200px) {
+  .menu {
+    display: flex;
+  }
+  .buttonText1:hover {
+    color: var(--color-black);
+  }
+  .register {
+    display: none;
+  }
+}
+@media screen and (max-width: 850px) {
+  .topNavLeft {
+    display: none;
+  }
+  .menu {
+    display: flex;
+  }
+  .register {
+    display: none;
+  }
+}
+@media screen and (max-width: 520px) {
+  .languageIcon {
+    width: 14px;
+    height: 14px;
+  }
+  .language {
+    font-size: var(--font-size-3xs);
+  }
+  .lineUnderLink,
+  .lineUnderLink1 {
+    width: 69px;
+  }
+  .headertopNavlinkParent {
+    gap: var(--gap-mini);
+  }
+  .leftSideSecondaryNav {
+    gap: var(--gap-base);
+  }
+  .leftSideTopNavParent {
+    gap: var(--gap-301xl);
+  }
+  .headertopNavprimary {
+    align-items: center;
+    justify-content: center;
+  }
+  .footerlogoIcon {
+    width: 80px;
+    height: 65px;
+  }
+  .headerImage {
+    padding-top: var(--padding-16xl);
+    padding-bottom: var(--padding-6xl);
+    box-sizing: border-box;
+  }
+  .welcomeToScholist {
+    font-size: var(--font-size-3xl);
+    text-align: center;
+  }
+  .welcome2 {
+    padding-top: var(--padding-3xs);
+    padding-bottom: var(--padding-3xs);
+    box-sizing: border-box;
+  }
+  .wouldYouLikeContainer {
+    font-size: var(--font-size-2xs);
+  }
+  .continue {
+    padding-top: var(--padding-3xs);
+    padding-bottom: var(--padding-3xs);
+    box-sizing: border-box;
+  }
+  .continue1 {
+    font-size: var(--h5-btns-med-14-size);
+  }
+  .buttonxxlarge {
+    width: 270px;
+    height: 40px;
+  }
+  .continueButton {
+    padding-top: var(--padding-11xl);
+    padding-bottom: var(--padding-xl);
+    box-sizing: border-box;
+  }
+  .noThanksIll {
+    font-size: var(--font-size-2xs);
+    text-align: center;
+    display: none;
+    width: 200px;
+  }
+  .noThanks {
+    width: 464px;
+    padding-left: var(--padding-161xl);
+    padding-top: var(--padding-4xs);
+    padding-right: 0;
+    box-sizing: border-box;
+  }
+  .welcome1 {
+    width: 350px;
+    height: 380px;
+  }
+  .body {
+    padding-left: var(--padding-181xl);
+    padding-right: var(--padding-181xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 360px) {
+  .headertopNavsecondary {
+    display: none;
+  }
+  .headerlogoIcon {
+    width: 124px;
+    height: 31px;
+  }
+  .menu {
+    width: 37px;
+    height: 37px;
+  }
+  .leftSideTopNavParent {
+    gap: var(--gap-281xl);
+  }
+  .footerlogoIcon {
+    width: 64px;
+    height: 55px;
+  }
+  .headerImage {
+    padding-top: 0;
+    padding-bottom: 0;
+    box-sizing: border-box;
+  }
+  .welcomeToScholist {
+    font-size: var(--h3-medium-20-size);
+  }
+  .welcome2 {
+    padding-top: var(--padding-mini);
+    padding-bottom: 0;
+    box-sizing: border-box;
+  }
+  .wouldYouLikeContainer {
+    font-size: var(--p2-regular-12-size);
+  }
+  .continue {
+    padding-top: 0;
+    padding-bottom: 0;
+    box-sizing: border-box;
+    margin-top: 20px;
+  }
+  .continue1 {
+    font-size: var(--h5-btns-med-14-size);
+  }
+  .buttonxxlarge {
+    width: 200px;
+  }
+  .noThanksIll {
+    font-size: var(--font-size-3xs);
+  }
+  .noThanks,
+  .welcome1 {
+    justify-content: center;
+  }
+  .noThanks {
+    padding-left: var(--padding-3xs);
+    padding-right: var(--padding-3xs);
+    padding-bottom: var(--padding-mid);
+    box-sizing: border-box;
+  }
+  .welcome1 {
+    width: 290px;
+    height: 450px;
+    align-items: center;
+  }
+  .body {
+    padding-left: var(--padding-81xl);
+    padding-right: var(--padding-81xl);
+    box-sizing: border-box;
+  }
+}

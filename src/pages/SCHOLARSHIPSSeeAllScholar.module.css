@@ -1,0 +1,509 @@
+.dashboard {
+  position: relative;
+}
+.allpageHeader,
+.buttonmedium,
+.header,
+.search {
+  display: flex;
+  box-sizing: border-box;
+  justify-content: flex-start;
+}
+.allpageHeader {
+  width: 864px;
+  height: 153px;
+  flex-direction: row;
+  padding: var(--padding-53xl) 0 var(--padding-13xl) var(--padding-13xl);
+  align-items: center;
+}
+.buttonmedium,
+.header,
+.search {
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.header {
+  width: 1440px;
+  height: 169px;
+  flex-direction: column;
+  padding: 0 var(--padding-108xl);
+  align-items: flex-start;
+  font-size: var(--h1-bold-52-size);
+}
+.buttonmedium,
+.search {
+  align-self: stretch;
+}
+.buttonmedium {
+  border: 2px solid var(--gray-3);
+  font-weight: 500;
+  font-family: var(--p1-regular-16);
+  font-size: var(--p1-regular-16-size);
+  background-color: transparent;
+  border-radius: var(--br-5xs);
+  height: 65px;
+  flex-direction: row;
+  padding: 0 var(--padding-base);
+  align-items: center;
+}
+.search {
+  height: 95px;
+  flex-direction: column;
+  padding: var(--padding-sm) var(--padding-141xl);
+  align-items: flex-start;
+}
+.buttonText {
+  position: relative;
+  font-weight: 500;
+}
+.vectorIcon {
+  position: absolute;
+  top: calc(50% - 12.1px);
+  left: calc(50% - 12.11px);
+  width: 24.21px;
+  height: 24.21px;
+}
+.div {
+  position: absolute;
+  top: 5.6px;
+  left: 10px;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 5px;
+  height: 13px;
+}
+.circle1 {
+  position: relative;
+  width: 24.21px;
+  height: 24.21px;
+  display: none;
+  font-size: var(--p2-regular-12-size);
+  color: var(--color-black);
+}
+.chevrondownIcon {
+  position: relative;
+  width: 11.05px;
+  height: 6.84px;
+}
+.arrows {
+  display: flex;
+  flex-direction: column;
+  padding: var(--padding-3xs) var(--padding-9xs);
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.filterButton {
+  border-radius: var(--br-5xs);
+  border: 2px solid var(--gray-3);
+  box-sizing: border-box;
+  height: 65px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  padding: 0 var(--padding-5xl);
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-9xs);
+}
+.filterButtonParent,
+.frameParent {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-base);
+}
+.frameParent {
+  flex: 1;
+}
+.vectorIcon4 {
+  position: relative;
+  width: 26px;
+  height: 6px;
+}
+.ellipseButton {
+  width: 44px;
+  height: 44px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.filterButtonContainer,
+.filtersWrapper {
+  width: 399px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-base);
+}
+.filtersWrapper {
+  width: 1085.32px;
+  gap: var(--gap-3xs);
+}
+.filter {
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  padding: var(--padding-5xs) var(--padding-141xl);
+  align-items: flex-start;
+  justify-content: center;
+  text-align: center;
+}
+.scholarshipsAvailable {
+  position: relative;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  width: 271px;
+  flex-shrink: 0;
+}
+.sortBy {
+  font-weight: 500;
+}
+.arrowsIcon,
+.sortByDeadlineContainer {
+  position: relative;
+}
+.arrowsIcon {
+  width: 28px;
+  height: 28px;
+}
+.sortByDeadlineParent {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+}
+.filterDropdownButtonInner {
+  position: relative;
+  width: 204px;
+  height: 30px;
+}
+.filterDropdownButton {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.scholarshipsAvailableParent,
+.scholarshipsSeeAllScholarInner {
+  align-self: stretch;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.scholarshipsAvailableParent {
+  flex-direction: row;
+  gap: 631px;
+}
+.scholarshipsSeeAllScholarInner {
+  overflow: hidden;
+  flex-direction: column;
+  padding: var(--padding-35xl) var(--padding-140xl) var(--padding-4xl);
+  font-size: var(--h3-medium-20-size);
+  color: var(--color-black);
+}
+.div4 {
+  position: relative;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 58px;
+}
+.progressBarIcon {
+  position: relative;
+  width: 158.5px;
+  height: 2px;
+}
+.button {
+  position: absolute;
+  height: 109.38%;
+  width: 101.52%;
+  top: -4.69%;
+  right: -0.76%;
+  bottom: -4.69%;
+  left: -0.76%;
+  border-radius: var(--br-5xs);
+  border: 1.5px solid var(--logo-black);
+  box-sizing: border-box;
+}
+.buttonText4 {
+  position: absolute;
+  height: 95%;
+  width: 100%;
+  top: 2.5%;
+  left: 0;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.buttonlarge {
+  position: relative;
+  width: 198px;
+  height: 32px;
+  color: var(--logo-black);
+}
+.parent {
+  align-self: stretch;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  padding: var(--padding-10xl) var(--padding-261xl);
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-3xs);
+  text-align: center;
+  font-size: var(--h5-btns-med-14-size);
+  color: var(--gray-4);
+}
+.footerlogoIcon {
+  position: relative;
+  width: 148px;
+  height: 45px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.navLink {
+  position: absolute;
+  top: 0;
+  left: 0;
+  line-height: 150%;
+}
+.footerlinknav {
+  position: relative;
+  width: 160px;
+  height: 19px;
+}
+.footerLinks {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+}
+.footericoninstagram {
+  position: relative;
+  width: 20px;
+  height: 20px;
+}
+.footericonfacbook {
+  position: relative;
+  width: 18.75px;
+  height: 18.75px;
+}
+.footericontwitter {
+  position: relative;
+  width: 19.5px;
+  height: 15.84px;
+}
+.footericonyoutube {
+  position: relative;
+  width: 21px;
+  height: 14.72px;
+}
+.iconWrapper {
+  display: flex;
+  flex-direction: row;
+  padding: 0 var(--padding-5xs);
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-xs);
+}
+.footerMenu {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-11xl);
+}
+.students {
+  position: relative;
+  font-weight: 500;
+  display: inline-block;
+  width: 160px;
+}
+.footerLink {
+  position: absolute;
+  width: 100%;
+  top: 0;
+  left: 0;
+  line-height: 150%;
+  display: inline-block;
+}
+.mainFooterLink {
+  position: relative;
+  width: 160px;
+  height: 24px;
+}
+.footerMenu1 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-base);
+}
+.footerLink12 {
+  position: absolute;
+  width: 100%;
+  top: 0;
+  left: 0;
+  line-height: 150%;
+  text-indent: 1px;
+  display: inline-block;
+}
+.mainFooterLink12 {
+  position: relative;
+  width: 160px;
+  height: 71px;
+  font-size: var(--p2-regular-12-size);
+}
+.textBox {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: var(--br-7xs);
+  background-color: var(--white);
+  box-shadow: var(--shadow-1);
+}
+.inputPlaceholder {
+  position: absolute;
+  top: 4px;
+  left: 10px;
+  font-weight: 500;
+  display: inline-block;
+  width: 181px;
+  height: 25px;
+}
+.subscribeEmailTextBox {
+  position: relative;
+  width: 198px;
+  height: 28px;
+  color: var(--gray-4);
+}
+.button1 {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: var(--br-5xs);
+  background-color: var(--purple-blue);
+}
+.buttonlarge1 {
+  position: relative;
+  width: 198px;
+  height: 32px;
+  text-align: center;
+}
+.footerGridRow,
+.footerLinks4,
+.footerMenuParent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.footerLinks4 {
+  flex-direction: column;
+  gap: var(--gap-5xs);
+  font-size: var(--h5-btns-med-14-size);
+}
+.footerGridRow,
+.footerMenuParent {
+  flex-direction: row;
+  gap: var(--gap-69xl);
+}
+.footerGridRow {
+  justify-content: center;
+}
+.scholistAllRights {
+  position: relative;
+  line-height: 150%;
+}
+.footerLegal {
+  width: 827px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-365xl);
+}
+.footer,
+.scholarshipsSeeAllScholar {
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.footer {
+  align-self: stretch;
+  background-color: var(--gray-4);
+  padding: var(--padding-63xl) var(--padding-105xl) var(--padding-20xl);
+  justify-content: center;
+  gap: var(--gap-62xl);
+  color: var(--gray-1);
+}
+.scholarshipsSeeAllScholar {
+  position: relative;
+  background-color: var(--white);
+  width: 100%;
+  justify-content: flex-start;
+  gap: var(--gap-11xs);
+  text-align: left;
+  font-size: var(--p1-regular-16-size);
+  color: var(--logo-black);
+  font-family: var(--p1-regular-16);
+}
+@media screen and (max-width: 1200px) {
+  .dashboard {
+    font-size: 45px;
+  }
+  .frameParent {
+    flex: unset;
+    align-self: stretch;
+  }
+  .filtersWrapper {
+    width: 30%;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+  .scholarshipsAvailableParent {
+    gap: var(--gap-381xl);
+  }
+  .footerMenuParent {
+    flex-wrap: wrap;
+  }
+  .footerGridRow {
+    flex-direction: column;
+    gap: var(--gap-31xl);
+  }
+}
+@media screen and (max-width: 850px) {
+  .dashboard {
+    font-size: var(--font-size-11xl);
+  }
+  .frameParent {
+    flex-direction: column;
+  }
+  .filtersWrapper {
+    width: 40%;
+  }
+  .parent {
+    justify-content: center;
+  }
+}

@@ -1,0 +1,732 @@
+.sHeaderActive {
+  position: relative;
+  font-weight: 500;
+}
+.sideNavsectionTitle {
+  width: 222px;
+  display: flex;
+  flex-direction: row;
+  padding: 0 var(--padding-5xs) 0 var(--padding-base);
+  box-sizing: border-box;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.divider {
+  position: relative;
+  border-top: 1px solid var(--logo-black);
+  box-sizing: border-box;
+  width: 257px;
+  height: 1px;
+}
+.magnifyingGlassIcon,
+.search1 {
+  position: relative;
+  width: 16px;
+  height: 16px;
+}
+.search1 {
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  width: 60px;
+  height: 22px;
+  flex-shrink: 0;
+}
+.search,
+.sideNavsearchBar {
+  display: flex;
+  justify-content: flex-start;
+}
+.sideNavsearchBar {
+  border-radius: var(--br-5xs);
+  border: 1px solid var(--logo-black);
+  flex-direction: row;
+  padding: var(--padding-8xs) var(--padding-81xl) var(--padding-8xs)
+    var(--padding-5xs);
+  align-items: center;
+  gap: var(--gap-5xs);
+}
+.search {
+  flex-direction: column;
+  padding: 0 var(--padding-13xl);
+  align-items: flex-start;
+  font-size: var(--h5-btns-med-14-size);
+}
+.sectionLinkText {
+  align-self: stretch;
+  position: relative;
+  font-weight: 500;
+}
+.sideNavsectionLink {
+  width: 222px;
+  display: flex;
+  flex-direction: column;
+  padding: 0 0 0 var(--padding-5xl);
+  box-sizing: border-box;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.iconBookmark {
+  position: relative;
+  width: 11px;
+  height: 15px;
+}
+.topNavtexticon1 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+}
+.leftMenuLinks,
+.topNavtexticon {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.topNavtexticon {
+  padding: 0 var(--padding-5xl);
+  font-size: var(--h5-btns-med-14-size);
+}
+.leftMenuLinks {
+  align-self: stretch;
+  gap: var(--gap-5xs);
+  font-size: var(--p1-regular-16-size);
+}
+.fluenthatGraduation12RegulIcon {
+  position: relative;
+  width: 15px;
+  height: 15px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.rightArrowIcon {
+  position: relative;
+  width: 13px;
+  height: 8px;
+}
+.sectionTitleAndArrow {
+  width: 206px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.sideNavsectionTitle2 {
+  width: 222px;
+  display: flex;
+  flex-direction: column;
+  padding: 0 var(--padding-5xs);
+  box-sizing: border-box;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.sectionLinkText1 {
+  flex: 1;
+  position: relative;
+  line-height: 150%;
+}
+.sectionLinkTextWrapper,
+.sideNavsectionLink1 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.sectionLinkTextWrapper {
+  align-self: stretch;
+  border-left: 3px solid var(--logo-color-2);
+  flex-direction: row;
+  padding: 0 0 0 var(--padding-8xs);
+}
+.sideNavsectionLink1 {
+  width: 222px;
+  flex-direction: column;
+  padding: 0 0 0 var(--padding-lgi);
+  box-sizing: border-box;
+  color: var(--logo-color-2);
+}
+.sectionLinkText2 {
+  align-self: stretch;
+  position: relative;
+  line-height: 150%;
+}
+.leftMenuLinkSection {
+  width: 256px;
+  display: flex;
+  flex-direction: column;
+  padding: 0 0 0 var(--padding-base);
+  box-sizing: border-box;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+}
+.scholarshipsAvailable,
+.sideNavscholarships {
+  position: absolute;
+  font-size: var(--h3-medium-20-size);
+}
+.sideNavscholarships {
+  top: 192px;
+  left: 160px;
+  border-radius: var(--br-5xs);
+  border: 1px solid var(--logo-black);
+  box-sizing: border-box;
+  width: 256px;
+  display: none;
+  flex-direction: column;
+  padding: var(--padding-base) 0 var(--padding-13xl);
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-base);
+}
+.scholarshipsAvailable {
+  top: 490px;
+  left: 159px;
+  font-weight: 500;
+  color: var(--color-black);
+}
+.sortBy {
+  font-weight: 500;
+}
+.arrowsIcon,
+.sortByDeadlineContainer {
+  position: relative;
+}
+.arrowsIcon {
+  width: 28px;
+  height: 28px;
+}
+.sortByDeadlineParent {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+}
+.filterDropdownButton,
+.filterDropdownButtonInner {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 204px;
+  height: 30px;
+}
+.filterDropdownButton {
+  top: 490px;
+  left: 1060px;
+  width: 220px;
+  font-size: var(--h3-medium-20-size);
+  color: var(--color-black);
+}
+.allpageHeader,
+.buttonmedium {
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: flex-start;
+}
+.buttonmedium {
+  top: 271px;
+  left: 160px;
+  border-radius: var(--br-5xs);
+  border: 2px solid var(--gray-3);
+  width: 1120px;
+  height: 65px;
+  overflow: hidden;
+  padding: 0 var(--padding-base);
+  gap: var(--gap-5xs);
+  cursor: pointer;
+  text-align: center;
+}
+.allpageHeader {
+  top: 100px;
+  left: 127px;
+  width: 864px;
+  padding: var(--padding-53xl) 0 var(--padding-13xl) var(--padding-13xl);
+  font-size: var(--h1-bold-52-size);
+}
+.cardscholarshipsimageIcon {
+  position: relative;
+  width: 70px;
+  height: 70px;
+  object-fit: cover;
+}
+.cardscholarshipsbackgroundco {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: var(--color-mediumslateblue);
+  width: 256px;
+  height: 97px;
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-3xs);
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: center;
+}
+.title {
+  position: absolute;
+  top: 110px;
+  left: 27px;
+  line-height: 120%;
+  display: flex;
+  align-items: flex-end;
+  width: 212px;
+  height: 40px;
+}
+.awardAmount,
+.deadline,
+.organization {
+  position: absolute;
+  top: 158px;
+  left: 27px;
+  line-height: 150%;
+}
+.awardAmount,
+.deadline {
+  top: 190px;
+}
+.deadline {
+  top: 222px;
+}
+.component2Icon {
+  position: absolute;
+  top: 223.68px;
+  left: 215px;
+  width: 24.63px;
+  height: 22.95px;
+}
+.card {
+  position: relative;
+  border-radius: var(--br-5xs);
+  background-color: var(--white);
+  border: 2px solid var(--gray-3);
+  box-sizing: border-box;
+  width: 256px;
+  height: 265px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.cardscholarshipsbackgroundco1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: var(--color-darkturquoise);
+  width: 256px;
+  height: 97px;
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-3xs);
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: center;
+}
+.cardscholarshipsimageIcon2 {
+  position: relative;
+  border-radius: var(--br-61xl);
+  width: 70px;
+  height: 70px;
+  object-fit: cover;
+}
+.cardscholarshipsbackgroundco2,
+.cardscholarshipsbackgroundco3 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: var(--color-gold);
+  width: 256px;
+  height: 97px;
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-3xs);
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: center;
+}
+.cardscholarshipsbackgroundco3 {
+  background-color: var(--color-red);
+}
+.row2Wrapper,
+.scholarshipsCards {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  gap: var(--gap-13xl);
+}
+.scholarshipsCards {
+  position: absolute;
+  top: 556px;
+  left: 159px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+.vectorIcon {
+  position: absolute;
+  top: calc(50% - 12.1px);
+  left: calc(50% - 12.11px);
+  width: 24.21px;
+  height: 24.21px;
+}
+.div {
+  position: absolute;
+  top: 5.6px;
+  left: 10px;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 5px;
+  height: 13px;
+}
+.circle1 {
+  position: relative;
+  width: 24.21px;
+  height: 24.21px;
+  display: none;
+  font-size: var(--p2-regular-12-size);
+  color: var(--color-black);
+}
+.chevrondownIcon {
+  position: relative;
+  width: 11.05px;
+  height: 6.84px;
+}
+.arrows {
+  display: flex;
+  flex-direction: column;
+  padding: var(--padding-3xs) var(--padding-9xs);
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.filterButton {
+  border-radius: var(--br-5xs);
+  border: 2px solid var(--gray-3);
+  box-sizing: border-box;
+  height: 65px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  padding: 0 var(--padding-5xl);
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-9xs);
+}
+.vectorIcon6 {
+  position: relative;
+  width: 26px;
+  height: 6px;
+}
+.ellipseButton {
+  width: 44px;
+  height: 44px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.filtersWrapper {
+  position: absolute;
+  top: 361px;
+  left: 160px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-base);
+  text-align: center;
+}
+.pageTitle1 {
+  position: relative;
+  line-height: 150%;
+}
+.underlineIcon {
+  align-self: stretch;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  height: 1px;
+  flex-shrink: 0;
+}
+.pageTitle {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  gap: var(--gap-9xs);
+  cursor: pointer;
+}
+.arrowIcon {
+  position: relative;
+  width: 4.29px;
+  height: 7.42px;
+}
+.underlineIcon1 {
+  align-self: stretch;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  height: 0;
+  flex-shrink: 0;
+}
+.pageTitle2 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  gap: var(--gap-9xs);
+}
+.arrowIcon1 {
+  position: relative;
+  width: 4.25px;
+  height: 7.39px;
+  display: none;
+}
+.pageTitle4 {
+  display: none;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  gap: var(--gap-9xs);
+}
+.headertopNavprimarybreadcr {
+  position: absolute;
+  top: 130px;
+  left: 159px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-base);
+}
+.headerlogoIcon {
+  position: relative;
+  width: 134px;
+  height: 41px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.headernavLink {
+  display: none;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+.headernavLink1 {
+  color: var(--logo-color-1);
+}
+.headernavLink1,
+.headernavLink2,
+.leftSideTopNav,
+.topNavLeft {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+.leftSideTopNav,
+.topNavLeft {
+  gap: var(--gap-13xl);
+}
+.leftSideTopNav {
+  position: absolute;
+  top: calc(50% - 20px);
+  left: 0;
+  padding: 0 0 0 var(--padding-13xl);
+  align-items: flex-end;
+}
+.maskGroupIcon,
+.messagesIcon {
+  position: relative;
+  width: 28.3px;
+  height: 28px;
+}
+.maskGroupIcon {
+  width: 44px;
+  height: 44px;
+  object-fit: cover;
+}
+.vectorIcon7 {
+  position: relative;
+  width: 10px;
+  height: 6px;
+}
+.maskGroupParent {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-6xs);
+}
+.button,
+.buttonText7 {
+  position: absolute;
+  width: 100%;
+  left: 0;
+}
+.button {
+  height: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  border-radius: var(--br-5xs);
+  border: 1px solid var(--logo-black);
+  box-sizing: border-box;
+}
+.buttonText7 {
+  height: 95%;
+  top: 2.5%;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.buttonmedium1 {
+  position: relative;
+  width: 128px;
+  height: 40px;
+  display: none;
+}
+.button1 {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: var(--br-5xs);
+  background-color: var(--logo-color-2);
+}
+.buttonmedium2 {
+  position: relative;
+  width: 128px;
+  height: 40px;
+  display: none;
+  color: var(--white);
+}
+.rightSideTopNav {
+  position: absolute;
+  top: calc(50% - 22px);
+  right: 0;
+  display: flex;
+  flex-direction: row;
+  padding: 0 var(--padding-13xl) 0 0;
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-13xl);
+  text-align: center;
+}
+.info {
+  position: absolute;
+  top: calc(50% - 23px);
+  left: 0;
+  width: 1440px;
+  height: 44px;
+}
+.scholarshipsLineIcon {
+  position: absolute;
+  top: 61.25px;
+  left: 199px;
+  width: 89.5px;
+  height: 1.5px;
+}
+.communityLineIcon,
+.resourcesIcon,
+.servicesLineIcon {
+  position: absolute;
+  top: 62px;
+  left: 321px;
+  width: 59.5px;
+  height: 0;
+  display: none;
+}
+.communityLineIcon,
+.resourcesIcon {
+  left: 412px;
+  width: 83px;
+}
+.resourcesIcon {
+  left: 529px;
+  width: 73px;
+}
+.input {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: var(--br-5xs);
+  background-color: var(--gray-2);
+}
+.placeholder {
+  position: absolute;
+  top: 9px;
+  left: 42px;
+  line-height: 150%;
+  text-indent: 1px;
+}
+.searchIcon {
+  position: absolute;
+  top: 8px;
+  left: 16px;
+  border-radius: var(--br-5xs);
+  width: 21px;
+  height: 19px;
+}
+.inputsDefault,
+.state {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+.inputsDefault {
+  border-radius: var(--br-5xs);
+  background-color: var(--gray-3);
+}
+.searchBar {
+  position: absolute;
+  top: 21px;
+  left: 736px;
+  width: 416px;
+  height: 36px;
+  font-size: var(--p2-regular-12-size);
+  color: var(--gray-5);
+}
+.navbar {
+  position: absolute;
+  width: 100%;
+  top: 0;
+  right: 0;
+  left: 0;
+  background-color: var(--gray-1);
+  border-bottom: 1px solid var(--gray-3);
+  box-sizing: border-box;
+  height: 80px;
+  font-size: var(--h5-btns-med-14-size);
+}
+.scholarshipsSeeAllBased {
+  position: relative;
+  background-color: var(--white);
+  width: 100%;
+  height: 3013px;
+  overflow-y: auto;
+  text-align: left;
+  font-size: var(--p1-regular-16-size);
+  color: var(--logo-black);
+  font-family: var(--p1-regular-16);
+}

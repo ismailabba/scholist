@@ -1,0 +1,211 @@
+.footer1 {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: var(--gray-4);
+}
+.scholistAllRights {
+  position: relative;
+  line-height: 150%;
+}
+.footerLegal {
+  position: absolute;
+  top: 361px;
+  left: 306px;
+  width: 827px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-365xl);
+}
+.footerlogoIcon {
+  position: relative;
+  width: 148px;
+  height: 45px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.navLink {
+  position: absolute;
+  top: 0;
+  left: 0;
+  line-height: 150%;
+}
+.footerlinknav {
+  position: relative;
+  width: 160px;
+  height: 19px;
+}
+.footerLinks {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+}
+.footericoninstagram {
+  position: relative;
+  width: 20px;
+  height: 20px;
+}
+.footericonfacbook {
+  position: relative;
+  width: 18.75px;
+  height: 18.75px;
+}
+.footericontwitter {
+  position: relative;
+  width: 19.5px;
+  height: 15.84px;
+}
+.footericonyoutube {
+  position: relative;
+  width: 21px;
+  height: 14.72px;
+}
+.iconWrapper {
+  display: flex;
+  flex-direction: row;
+  padding: 0 var(--padding-5xs);
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-xs);
+}
+.footerMenu {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-11xl);
+}
+.students {
+  position: relative;
+  font-weight: 500;
+  display: inline-block;
+  width: 160px;
+}
+.footerLink {
+  position: absolute;
+  width: 100%;
+  top: 0;
+  left: 0;
+  line-height: 150%;
+  display: inline-block;
+}
+.mainFooterLink {
+  position: relative;
+  width: 160px;
+  height: 24px;
+}
+.footerMenu1 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-base);
+}
+.footerLink12 {
+  position: absolute;
+  width: 100%;
+  top: 0;
+  left: 0;
+  line-height: 150%;
+  text-indent: 1px;
+  display: inline-block;
+}
+.mainFooterLink12 {
+  position: relative;
+  width: 160px;
+  height: 71px;
+  font-size: var(--p2-regular-12-size);
+}
+.textBox {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: var(--br-7xs);
+  background-color: var(--white);
+  box-shadow: var(--shadow-1);
+}
+.inputPlaceholder {
+  position: absolute;
+  top: 4px;
+  left: 10px;
+  font-weight: 500;
+  display: inline-block;
+  width: 181px;
+  height: 25px;
+}
+.subscribeEmailTextBox {
+  position: relative;
+  width: 198px;
+  height: 28px;
+  color: var(--gray-4);
+}
+.button,
+.buttonText {
+  position: absolute;
+  width: 100%;
+  left: 0;
+}
+.button {
+  height: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  border-radius: var(--br-5xs);
+  background-color: var(--logo-color-2);
+}
+.buttonText {
+  height: 95%;
+  top: 2.5%;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.buttonlarge {
+  position: relative;
+  width: 198px;
+  height: 32px;
+  text-align: center;
+}
+.footerGridRow,
+.footerLinks4 {
+  display: flex;
+  align-items: flex-start;
+}
+.footerLinks4 {
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+  font-size: var(--h5-btns-med-14-size);
+}
+.footerGridRow {
+  position: absolute;
+  top: 82px;
+  left: 124px;
+  flex-direction: row;
+  justify-content: center;
+  gap: var(--gap-69xl);
+}
+.footer {
+  position: absolute;
+  bottom: 0;
+  left: calc(50% - 720px);
+  width: 1440px;
+  height: 424px;
+  text-align: left;
+  font-size: var(--p1-regular-16-size);
+  color: var(--gray-1);
+  font-family: var(--p1-regular-16);
+}

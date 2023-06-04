@@ -1,0 +1,128 @@
+.cardscholarshipsimageIcon {
+  position: relative;
+  width: 70px;
+  height: 70px;
+  object-fit: cover;
+}
+.cardscholarshipsbackgroundco {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: var(--color-mediumslateblue);
+  width: 256px;
+  height: 97px;
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-3xs);
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: center;
+}
+.title {
+  position: absolute;
+  top: 110px;
+  left: 27px;
+  line-height: 120%;
+  display: flex;
+  align-items: flex-end;
+  width: 212px;
+  height: 40px;
+}
+.awardAmount,
+.deadline,
+.organization {
+  position: absolute;
+  top: 158px;
+  left: 27px;
+  line-height: 150%;
+}
+.awardAmount,
+.deadline {
+  top: 190px;
+}
+.deadline {
+  top: 222px;
+}
+.component2Icon {
+  position: absolute;
+  top: 223.68px;
+  left: 215px;
+  width: 24.63px;
+  height: 22.95px;
+}
+.card {
+  position: relative;
+  border-radius: var(--br-5xs);
+  background-color: var(--white);
+  border: 2px solid var(--gray-3);
+  box-sizing: border-box;
+  width: 256px;
+  height: 265px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.cardscholarshipsbackgroundco1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: var(--color-darkturquoise);
+  width: 256px;
+  height: 97px;
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-3xs);
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: center;
+}
+.cardscholarshipsimageIcon2 {
+  position: relative;
+  border-radius: var(--br-61xl);
+  width: 70px;
+  height: 70px;
+  object-fit: cover;
+}
+.cardscholarshipsbackgroundco2,
+.cardscholarshipsbackgroundco3 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: var(--color-gold);
+  width: 256px;
+  height: 97px;
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-3xs);
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: center;
+}
+.cardscholarshipsbackgroundco3 {
+  background-color: var(--color-red);
+}
+.row2Wrapper,
+.row2WrapperWrapper {
+  display: flex;
+  align-items: flex-start;
+}
+.row2Wrapper {
+  flex-direction: row;
+  justify-content: center;
+  gap: var(--gap-13xl);
+}
+.row2WrapperWrapper {
+  overflow: hidden;
+  flex-direction: column;
+  padding: var(--padding-sm) var(--padding-139xl);
+  justify-content: flex-start;
+  text-align: left;
+  font-size: var(--p1-regular-16-size);
+  color: var(--logo-black);
+  font-family: var(--p1-regular-16);
+}
+@media screen and (max-width: 1200px) {
+  .row2Wrapper,
+  .row2WrapperWrapper {
+    flex-wrap: wrap;
+  }
+}

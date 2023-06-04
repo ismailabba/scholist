@@ -1,0 +1,1098 @@
+.pageTitle1 {
+  position: relative;
+  line-height: 150%;
+}
+.underlineIcon {
+  align-self: stretch;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  height: 1px;
+  flex-shrink: 0;
+}
+.pageTitle {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  gap: var(--gap-9xs);
+  cursor: pointer;
+}
+.arrowIcon {
+  position: relative;
+  width: 4.29px;
+  height: 7.42px;
+}
+.pageTitleParent {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-base);
+}
+.basedOnYour {
+  position: relative;
+  line-height: 150%;
+  display: flex;
+  align-items: flex-end;
+  width: 199px;
+}
+.pageTitle2 {
+  width: 168px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  gap: var(--gap-9xs);
+  cursor: pointer;
+}
+.frameParent,
+.pageTitleGroup {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-base);
+}
+.frameParent {
+  align-items: flex-start;
+}
+.nitroScholarshipSweepstakes {
+  position: relative;
+  line-height: 150%;
+  display: flex;
+  align-items: flex-end;
+  width: 298px;
+}
+.underlineIcon2 {
+  align-self: stretch;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  height: 0;
+  flex-shrink: 0;
+}
+.pageTitle3 {
+  width: 298px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  gap: var(--gap-9xs);
+}
+.headertopNavprimarybreadcr {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-base);
+}
+.chevronbackwardIcon {
+  position: relative;
+  width: 8px;
+  height: 13.93px;
+}
+.arrows {
+  display: flex;
+  flex-direction: row;
+  padding: 2px var(--padding-7xs);
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.back {
+  position: relative;
+  font-weight: 500;
+}
+.backButton {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+  font-size: var(--h3-medium-20-size);
+  color: var(--color-black);
+}
+.header,
+.similarScholarshipsLabel {
+  box-sizing: border-box;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.header {
+  align-self: stretch;
+  height: 95px;
+  flex-direction: column;
+  padding: var(--padding-8xl) var(--padding-140xl) var(--padding-26xl);
+  gap: var(--gap-3xs);
+}
+.similarScholarshipsLabel {
+  border-radius: var(--br-5xs);
+  background-color: var(--gray-3);
+  border: 2px solid var(--gray-3);
+  width: 253px;
+  height: 58px;
+  flex-direction: row;
+  padding: var(--padding-5xs);
+}
+.cardscholarshipsimageIcon {
+  position: relative;
+  border-radius: var(--br-61xl);
+  width: 70px;
+  height: 70px;
+  object-fit: cover;
+}
+.cardscholarshipsbackgroundco {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: var(--color-gold);
+  width: 256px;
+  height: 97px;
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-3xs);
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: center;
+}
+.title {
+  position: absolute;
+  top: 110px;
+  left: 27px;
+  line-height: 120%;
+  display: flex;
+  align-items: flex-end;
+  width: 212px;
+  height: 40px;
+}
+.awardAmount,
+.deadline,
+.organization {
+  position: absolute;
+  top: 158px;
+  left: 27px;
+  line-height: 150%;
+}
+.awardAmount,
+.deadline {
+  top: 190px;
+}
+.deadline {
+  top: 222px;
+}
+.card1,
+.component2Icon {
+  position: absolute;
+  top: 224px;
+  left: 216px;
+  width: 22.63px;
+  height: 21.64px;
+}
+.card1 {
+  top: 315px;
+  left: 0;
+  border-radius: var(--br-5xs);
+  background-color: var(--white);
+  border: 2px solid var(--gray-3);
+  box-sizing: border-box;
+  width: 256px;
+  height: 265px;
+  overflow: hidden;
+}
+.cardscholarshipsimageIcon1 {
+  position: relative;
+  width: 70px;
+  height: 70px;
+  object-fit: cover;
+}
+.cardscholarshipsbackgroundco1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: var(--color-darkturquoise);
+  width: 256px;
+  height: 97px;
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-3xs);
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: center;
+}
+.card {
+  position: relative;
+  border-radius: var(--br-5xs);
+  background: linear-gradient(#e7e7e7, #e7e7e7), #fff;
+  border: 2px solid var(--gray-3);
+  box-sizing: border-box;
+  width: 253px;
+  height: 265px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.similarScholarshipsLabelParent {
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.cardscholarshipsbackgroundco2 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: var(--color-mediumslateblue);
+  width: 256px;
+  height: 97px;
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-3xs);
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: center;
+}
+.card2 {
+  position: relative;
+  border-radius: var(--br-5xs);
+  background-color: var(--white);
+  border: 2px solid var(--gray-3);
+  box-sizing: border-box;
+  width: 256px;
+  height: 265px;
+  overflow: hidden;
+  flex-shrink: 0;
+  cursor: pointer;
+}
+.cardscholarshipsbackgroundco3 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: var(--color-red);
+  width: 256px;
+  height: 97px;
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-3xs);
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: center;
+}
+.frameGroup {
+  display: flex;
+  gap: 19px;
+}
+.frameGroup,
+.selection,
+.similarScholarshipsLabel1 {
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.selection {
+  align-self: stretch;
+  overflow-x: auto;
+  display: none;
+  padding: 0 0 var(--padding-7xl);
+}
+.similarScholarshipsLabel1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-5xs);
+  background-color: var(--gray-3);
+  border: 2px solid var(--gray-3);
+  box-sizing: border-box;
+  width: 256px;
+  height: 58px;
+  overflow: hidden;
+  display: flex;
+  padding: var(--padding-5xs);
+}
+.card7,
+.component2Icon8 {
+  position: absolute;
+  top: 223.68px;
+  left: 215px;
+  width: 24.63px;
+  height: 22.95px;
+}
+.card7 {
+  top: 42px;
+  left: 0;
+  border-radius: var(--br-5xs);
+  background: linear-gradient(#e7e7e7, #e7e7e7), #fff;
+  border: 2px solid var(--gray-3);
+  box-sizing: border-box;
+  width: 256px;
+  height: 265px;
+  overflow: hidden;
+}
+.similarScholarshipsLabelGroup {
+  position: relative;
+  width: 256px;
+  height: 307px;
+}
+.card9,
+.pageDivider {
+  position: relative;
+  box-sizing: border-box;
+}
+.card9 {
+  border-radius: var(--br-5xs);
+  background-color: var(--white);
+  border: 2px solid var(--gray-3);
+  width: 256px;
+  height: 265px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.pageDivider {
+  border-top: 2px solid var(--gray-3);
+  width: 549px;
+  height: 2px;
+  display: none;
+}
+.body1 {
+  width: 256px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-base);
+}
+.image32Icon {
+  position: relative;
+  width: 157px;
+  height: 153px;
+  object-fit: cover;
+}
+.headerImage {
+  align-self: stretch;
+  flex: 1;
+  background-color: var(--color-darkturquoise);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  padding: var(--padding-8xl) 287px;
+  align-items: center;
+  justify-content: center;
+}
+.nitroScholarshipSweepstakes1 {
+  position: relative;
+  line-height: 38px;
+  display: flex;
+  align-items: flex-end;
+  width: 420px;
+  flex-shrink: 0;
+}
+.titleShareIcons {
+  width: 420px;
+  height: 76px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+}
+.arrowsIcon,
+.healthIcon {
+  position: relative;
+  width: 36px;
+  height: 28px;
+}
+.arrowsIcon {
+  width: 35.85px;
+}
+.healthParent {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-lg);
+}
+.scholarshipName,
+.titleShareIconsParent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.titleShareIconsParent {
+  flex-direction: row;
+  gap: 128px;
+}
+.scholarshipName {
+  align-self: stretch;
+  overflow: hidden;
+  flex-direction: column;
+  padding: var(--padding-53xl) var(--padding-25xl) var(--padding-mid)
+    var(--padding-15xl);
+  font-size: var(--h2-bold-32-size);
+}
+.nitro {
+  position: relative;
+  font-weight: 500;
+}
+.amountAndDeadline,
+.amountDueDate,
+.amountDueDateWrapper {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.amountDueDate {
+  flex-direction: row;
+}
+.amountAndDeadline,
+.amountDueDateWrapper {
+  overflow: hidden;
+}
+.amountDueDateWrapper {
+  height: 62px;
+  flex-shrink: 0;
+  flex-direction: column;
+  padding: var(--padding-8xs) var(--padding-20xl);
+  box-sizing: border-box;
+}
+.amountAndDeadline {
+  flex-direction: row;
+  padding: 0 var(--padding-25xl) var(--padding-3xl);
+  gap: var(--gap-45xl);
+}
+.arrowIcon2 {
+  position: relative;
+  width: 11.06px;
+  height: 6.59px;
+}
+.arrowWrapper {
+  display: flex;
+  flex-direction: column;
+  padding: var(--padding-4xs) var(--padding-6xs);
+  align-items: center;
+  justify-content: center;
+}
+.checklist,
+.checklistDropdown {
+  display: flex;
+  justify-content: flex-start;
+}
+.checklistDropdown {
+  width: 598px;
+  height: 32px;
+  flex-direction: row;
+  padding: 0 var(--padding-29xl);
+  box-sizing: border-box;
+  align-items: center;
+  gap: var(--gap-5xs);
+}
+.checklist {
+  height: 37px;
+  overflow: hidden;
+  flex-shrink: 0;
+  flex-direction: column;
+  align-items: flex-start;
+  font-size: var(--p1-regular-16-size);
+  color: var(--gray-4);
+}
+.essay,
+.lettersOfRecommendation,
+.transcripts {
+  position: absolute;
+  top: 0;
+  left: 40px;
+  font-weight: 500;
+}
+.lettersOfRecommendation,
+.transcripts {
+  top: 72px;
+}
+.transcripts {
+  top: 37px;
+}
+.checkmarkcirclefillIcon {
+  position: absolute;
+  top: calc(50% - 47.11px);
+  left: calc(50% - 132px);
+  width: 24.21px;
+  height: 96.22px;
+}
+.essayParent {
+  position: relative;
+  width: 264px;
+  height: 98.22px;
+}
+.checklistBody {
+  height: 133px;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  padding: var(--padding-sm) 52px;
+  box-sizing: border-box;
+  align-items: flex-start;
+  justify-content: flex-start;
+  font-size: var(--p1-regular-16-size);
+  color: var(--gray-4);
+}
+.buttonText {
+  position: relative;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  width: 41px;
+  height: 21px;
+  flex-shrink: 0;
+}
+.vectorIcon {
+  position: relative;
+  width: 14.5px;
+  height: 14.5px;
+}
+.buttonmedium {
+  border-radius: var(--br-5xs);
+  background-color: var(--logo-color-2);
+  height: 40px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  padding: 0 var(--padding-13xl);
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+}
+.button,
+.buttonText1 {
+  position: absolute;
+  width: 100%;
+  left: 0;
+}
+.button {
+  height: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  border-radius: var(--br-5xs);
+  border: 1px solid var(--logo-black);
+  box-sizing: border-box;
+}
+.buttonText1 {
+  height: 95%;
+  top: 2.5%;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.buttonmedium1 {
+  position: relative;
+  width: 128px;
+  height: 40px;
+  display: none;
+  text-align: center;
+  color: var(--logo-black);
+}
+.apply,
+.buttons {
+  display: flex;
+  justify-content: flex-start;
+}
+.buttons {
+  height: 23px;
+  flex-direction: row;
+  align-items: center;
+  gap: var(--gap-base);
+}
+.apply {
+  height: 80px;
+  overflow: hidden;
+  flex-shrink: 0;
+  flex-direction: column;
+  padding: var(--padding-2xl) var(--padding-25xl);
+  box-sizing: border-box;
+  align-items: flex-start;
+  font-size: var(--h5-btns-med-14-size);
+  color: var(--white);
+}
+.the2000Nitro {
+  margin: 0;
+}
+.aParentWho {
+  margin-bottom: 0;
+}
+.aParentWhoCurrentlyHasAC {
+  margin: 0;
+  padding-left: var(--padding-2xl);
+}
+.officialRules {
+  color: inherit;
+}
+.the2000NitroContainer {
+  flex: 1;
+  position: relative;
+  line-height: 150%;
+}
+.scholarshipDescription,
+.scholarshipDescription1 {
+  box-sizing: border-box;
+  overflow: hidden;
+  display: flex;
+  align-items: flex-start;
+}
+.scholarshipDescription1 {
+  align-self: stretch;
+  height: 528px;
+  flex-shrink: 0;
+  flex-direction: row;
+  padding: var(--padding-sm) var(--padding-25xl);
+  justify-content: flex-start;
+  font-size: var(--font-inherit);
+  color: var(--font-inherit);
+  font-family: var(--font-inherit);
+}
+.scholarshipDescription {
+  flex: 1;
+  border-radius: var(--br-5xs);
+  background-color: var(--white);
+  border: 2px solid var(--gray-3);
+  height: 1264px;
+  flex-direction: column;
+  justify-content: center;
+  font-size: var(--h3-medium-20-size);
+}
+.body,
+.description {
+  align-self: stretch;
+  display: flex;
+  justify-content: center;
+}
+.description {
+  flex-direction: row;
+  padding: 0 0 var(--padding-79xl);
+  align-items: flex-start;
+  gap: 48px;
+}
+.body {
+  overflow: hidden;
+  flex-direction: column;
+  padding: 0 var(--padding-137xl);
+  align-items: center;
+}
+.footerlogoIcon {
+  position: relative;
+  width: 148px;
+  height: 45px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.navLink {
+  position: absolute;
+  top: 0;
+  left: 0;
+  line-height: 150%;
+}
+.footerlinknav {
+  position: relative;
+  width: 160px;
+  height: 19px;
+}
+.footerLinks {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+}
+.footericoninstagram {
+  position: relative;
+  width: 20px;
+  height: 20px;
+}
+.footericonfacbook {
+  position: relative;
+  width: 18.75px;
+  height: 18.75px;
+}
+.footericontwitter {
+  position: relative;
+  width: 19.5px;
+  height: 15.84px;
+}
+.footericonyoutube {
+  position: relative;
+  width: 21px;
+  height: 14.72px;
+}
+.iconWrapper {
+  display: flex;
+  flex-direction: row;
+  padding: 0 var(--padding-5xs);
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-xs);
+}
+.footerMenu {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-11xl);
+}
+.students {
+  position: relative;
+  font-weight: 500;
+  display: inline-block;
+  width: 160px;
+}
+.footerLink {
+  position: absolute;
+  width: 100%;
+  top: 0;
+  left: 0;
+  line-height: 150%;
+  display: inline-block;
+}
+.mainFooterLink {
+  position: relative;
+  width: 160px;
+  height: 24px;
+}
+.footerMenu1 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-base);
+}
+.footerLink12 {
+  position: absolute;
+  width: 100%;
+  top: 0;
+  left: 0;
+  line-height: 150%;
+  text-indent: 1px;
+  display: inline-block;
+}
+.mainFooterLink12 {
+  position: relative;
+  width: 160px;
+  height: 71px;
+  font-size: var(--p2-regular-12-size);
+}
+.textBox {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: var(--br-7xs);
+  background-color: var(--white);
+  box-shadow: var(--shadow-1);
+}
+.inputPlaceholder {
+  position: absolute;
+  top: 4px;
+  left: 10px;
+  font-weight: 500;
+  display: inline-block;
+  width: 181px;
+  height: 25px;
+}
+.subscribeEmailTextBox {
+  position: relative;
+  width: 198px;
+  height: 28px;
+  color: var(--gray-4);
+}
+.button1 {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: var(--br-5xs);
+  background-color: var(--purple-blue);
+}
+.buttonlarge {
+  position: relative;
+  width: 198px;
+  height: 32px;
+  text-align: center;
+}
+.footerGridRow,
+.footerLinks4,
+.footerMenuParent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.footerLinks4 {
+  flex-direction: column;
+  gap: var(--gap-5xs);
+  font-size: var(--h5-btns-med-14-size);
+}
+.footerGridRow,
+.footerMenuParent {
+  flex-direction: row;
+  gap: var(--gap-69xl);
+}
+.footerGridRow {
+  justify-content: center;
+}
+.scholistAllRights {
+  position: relative;
+  line-height: 150%;
+}
+.footerLegal {
+  width: 827px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-365xl);
+}
+.footer,
+.scholarshipsDescription1 {
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.footer {
+  align-self: stretch;
+  background-color: var(--gray-4);
+  padding: var(--padding-63xl) var(--padding-105xl) var(--padding-20xl);
+  align-items: flex-start;
+  gap: var(--gap-62xl);
+  color: var(--gray-1);
+}
+.scholarshipsDescription1 {
+  position: relative;
+  background-color: var(--white);
+  width: 100%;
+  align-items: center;
+  text-align: left;
+  font-size: var(--p1-regular-16-size);
+  color: var(--logo-black);
+  font-family: var(--p1-regular-16);
+}
+@media screen and (max-width: 1200px) {
+  .basedOnYour,
+  .nitroScholarshipSweepstakes,
+  .pageTitle1 {
+    font-size: var(--h5-btns-med-14-size);
+  }
+  .selection {
+    background-color: var(--white);
+    display: flex;
+    flex-direction: row;
+    gap: var(--gap-mini);
+  }
+  .body1 {
+    display: none;
+    width: auto;
+    flex-direction: row;
+  }
+  .image32Icon {
+    width: 130px;
+    height: 131px;
+  }
+  .headerImage {
+    padding-left: 0;
+    padding-right: 0;
+    box-sizing: border-box;
+  }
+  .nitroScholarshipSweepstakes1 {
+    font-size: var(--h3-medium-20-size);
+    width: 300px;
+  }
+  .titleShareIconsParent {
+    gap: var(--gap-xl);
+  }
+  .scholarshipName {
+    padding-left: 0;
+    box-sizing: border-box;
+  }
+  .amountAndDeadline,
+  .amountDueDateWrapper,
+  .apply,
+  .checklist,
+  .checklistBody {
+    padding-left: var(--padding-41xl);
+    box-sizing: border-box;
+  }
+  .the2000NitroContainer {
+    font-size: var(--font-size-3xs);
+    width: 500px;
+  }
+  .scholarshipDescription1 {
+    padding-left: var(--padding-41xl);
+    box-sizing: border-box;
+  }
+  .scholarshipDescription {
+    width: 90%;
+    flex: unset;
+    align-self: stretch;
+  }
+  .description {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .body {
+    padding-left: var(--padding-137xl);
+    box-sizing: border-box;
+  }
+  .footerMenuParent {
+    flex-wrap: wrap;
+  }
+  .footerGridRow {
+    flex-direction: column;
+    gap: var(--gap-31xl);
+  }
+}
+@media screen and (max-width: 850px) {
+  .pageTitleGroup {
+    gap: var(--gap-3xs);
+  }
+  .headertopNavprimarybreadcr {
+    gap: var(--gap-7xs);
+  }
+  .body1 {
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+  .healthParent {
+    padding-left: var(--padding-41xl);
+    box-sizing: border-box;
+  }
+  .titleShareIconsParent {
+    flex-direction: column;
+    gap: var(--gap-8xs);
+  }
+  .amountAndDeadline,
+  .apply,
+  .checklist,
+  .checklistBody,
+  .scholarshipDescription1 {
+    padding-left: var(--padding-41xl);
+    box-sizing: border-box;
+  }
+  .scholarshipDescription {
+    width: 500px;
+  }
+  .body,
+  .description {
+    padding-left: var(--padding-21xl);
+    box-sizing: border-box;
+  }
+  .body {
+    padding-left: var(--padding-137xl);
+  }
+}
+@media screen and (max-width: 520px) {
+  .headertopNavprimarybreadcr {
+    flex-direction: column;
+  }
+  .header,
+  .selection {
+    box-sizing: border-box;
+  }
+  .header {
+    padding-left: var(--padding-140xl);
+  }
+  .selection {
+    width: 400px;
+    padding-left: 0;
+  }
+  .image32Icon {
+    width: 100px;
+    height: 100px;
+  }
+  .headerImage {
+    padding-left: 0;
+    padding-right: 0;
+    box-sizing: border-box;
+  }
+  .nitroScholarshipSweepstakes1 {
+    font-size: var(--font-size-lg);
+  }
+  .healthParent {
+    padding-left: var(--padding-41xl);
+    box-sizing: border-box;
+  }
+  .titleShareIconsParent {
+    flex-direction: column;
+    gap: var(--gap-xl);
+  }
+  .scholarshipName {
+    gap: var(--gap-10xs);
+    padding-left: 0;
+    padding-top: var(--padding-3xs);
+    padding-bottom: 0;
+    box-sizing: border-box;
+  }
+  .nitro {
+    font-size: var(--p1-regular-16-size);
+  }
+  .amountAndDeadline,
+  .amountDueDateWrapper {
+    padding-left: var(--padding-41xl);
+    box-sizing: border-box;
+  }
+  .amountDueDateWrapper {
+    align-items: flex-start;
+    justify-content: center;
+  }
+  .amountAndDeadline {
+    flex-direction: column;
+    gap: var(--gap-3xs);
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+  .checklist {
+    padding-left: var(--padding-xl);
+    box-sizing: border-box;
+  }
+  .essay,
+  .lettersOfRecommendation,
+  .transcripts {
+    font-size: var(--h5-btns-med-14-size);
+  }
+  .apply,
+  .checklistBody,
+  .scholarshipDescription1 {
+    padding-left: var(--padding-41xl);
+    box-sizing: border-box;
+  }
+  .scholarshipDescription {
+    width: 350px;
+    align-items: flex-start;
+    justify-content: center;
+  }
+  .description,
+  .scholarshipDescription {
+    padding-left: 0;
+    box-sizing: border-box;
+  }
+  .body,
+  .scholarshipsDescription1 {
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+  }
+  .body {
+    padding-left: var(--padding-11xl);
+    padding-right: var(--padding-21xl);
+  }
+  .scholarshipsDescription1 {
+    padding-left: 0;
+  }
+}

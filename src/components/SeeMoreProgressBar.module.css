@@ -1,0 +1,57 @@
+.button,
+.div {
+  position: absolute;
+}
+.div {
+  top: 0;
+  left: 47px;
+  font-weight: 500;
+}
+.button {
+  height: 109.38%;
+  width: 101.84%;
+  top: -4.69%;
+  right: -0.92%;
+  bottom: -4.69%;
+  left: -0.92%;
+  border-radius: var(--br-5xs);
+  border: 1.5px solid var(--logo-black);
+  box-sizing: border-box;
+}
+.buttonText {
+  position: absolute;
+  height: 95%;
+  width: 100%;
+  top: 2.5%;
+  left: 0;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.buttonlarge {
+  position: absolute;
+  top: 56px;
+  left: 0;
+  width: 163px;
+  height: 32px;
+  color: var(--logo-black);
+}
+.progressBarIcon {
+  position: absolute;
+  top: 28px;
+  left: 1px;
+  width: 158.5px;
+  height: 2px;
+}
+.seeMoreProgressBar {
+  position: absolute;
+  top: 2386px;
+  left: 639px;
+  width: 163px;
+  height: 88px;
+  text-align: center;
+  font-size: var(--h5-btns-med-14-size);
+  color: var(--gray-4);
+  font-family: var(--p1-regular-16);
+}

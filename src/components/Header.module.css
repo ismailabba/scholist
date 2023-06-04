@@ -1,0 +1,187 @@
+.headerlogoIcon {
+  position: relative;
+  width: 134px;
+  height: 41px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.navLinkDefault {
+  position: relative;
+  font-weight: 500;
+}
+.headernavLink {
+  display: none;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+.headernavLink1 {
+  cursor: pointer;
+  color: var(--logo-color-1);
+}
+.headernavLink1,
+.headernavLink2,
+.leftSideTopNav,
+.topNavLeft {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+.leftSideTopNav,
+.topNavLeft {
+  gap: var(--gap-13xl);
+}
+.leftSideTopNav {
+  position: absolute;
+  top: calc(50% - 20px);
+  left: 0;
+  width: 604.51px;
+  padding: 0 0 0 var(--padding-13xl);
+  box-sizing: border-box;
+  align-items: flex-end;
+}
+.vectorIcon,
+.vectorIcon1 {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.vectorIcon1 {
+  height: 50%;
+  width: 75%;
+  top: 25%;
+  right: 12.5%;
+  bottom: 25%;
+  left: 12.5%;
+}
+.menu {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: relative;
+  width: 44px;
+  height: 47px;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: none;
+}
+.messagesIcon,
+.notificationsIcon {
+  position: absolute;
+  top: 8px;
+  left: -3px;
+  width: 28.3px;
+  height: 28px;
+}
+.notificationsIcon {
+  left: 53px;
+  width: 22.74px;
+}
+.maskGroupIcon {
+  position: relative;
+  width: 44px;
+  height: 44px;
+  object-fit: cover;
+}
+.vectorIcon2 {
+  position: relative;
+  width: 10px;
+  height: 6px;
+}
+.maskGroupParent {
+  position: absolute;
+  top: 0;
+  left: 106px;
+  width: 46px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-6xs);
+}
+.messagesParent {
+  position: relative;
+  width: 152px;
+  height: 44px;
+}
+.rightSideTopNav {
+  position: absolute;
+  top: calc(50% - 22px);
+  right: 0;
+  width: 263px;
+  display: flex;
+  flex-direction: row;
+  padding: 0 var(--padding-13xl) 0 0;
+  box-sizing: border-box;
+  align-items: flex-start;
+  justify-content: flex-end;
+  gap: var(--gap-13xl);
+}
+.info {
+  align-self: stretch;
+  position: relative;
+  height: 44px;
+}
+.scholarshipsLineIcon {
+  position: relative;
+  width: 89.5px;
+  height: 0;
+  display: none;
+}
+.communityLineIcon,
+.resourcesIcon,
+.servicesLineIcon {
+  position: relative;
+  width: 59.5px;
+  height: 0;
+  display: none;
+}
+.communityLineIcon,
+.resourcesIcon {
+  width: 83px;
+}
+.resourcesIcon {
+  width: 73px;
+}
+.navbar {
+  align-self: stretch;
+  background-color: var(--gray-1);
+  border-bottom: 1px solid var(--gray-3);
+  box-sizing: border-box;
+  height: 79px;
+  display: flex;
+  flex-direction: column;
+  padding: var(--padding-mid) 0;
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-3xs);
+  text-align: left;
+  font-size: var(--h5-btns-med-14-size);
+  color: var(--logo-black);
+  font-family: var(--p1-regular-16);
+}
+@media screen and (max-width: 1200px) {
+  .menu {
+    display: none;
+  }
+}
+@media screen and (max-width: 850px) {
+  .topNavLeft {
+    display: none;
+  }
+  .menu {
+    display: flex;
+  }
+  .messagesParent {
+    display: none;
+  }
+}
